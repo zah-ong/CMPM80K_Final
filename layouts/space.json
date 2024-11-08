@@ -1,12 +1,12 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "Space",
+  "name": "Space",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
-  "title": "",
+  "title": "Space Repair",
   "v": 209,
   "uiSettings": {
     "grid": false,
@@ -18,12 +18,47 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.4194339782759061,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 465,
+      "height": 1070,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Planet1",
+      "persistentUuid": "3d881115-3b8e-4b34-b99d-f0a4cf7e6ddc",
+      "width": 1605,
+      "x": 709,
+      "y": 371,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Camera",
+      "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
+      "width": 0,
+      "x": 579,
+      "y": 267,
+      "z": 300,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "assetStoreId": "30f1bb950cbd99f20ef9ff9bdb867e557ee6083262fa234da1805dc42b2df3c6",
@@ -405,7 +440,27 @@
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Jump3D",
+          "type": "Jump3D::Jump3D",
+          "Object3D": "Object3D",
+          "JumpHeight": 150,
+          "MaxFallingSpeed": 700,
+          "Gravity": 1000,
+          "JumpSpeed": 600,
+          "JumpSustainDurationMax": 0.2,
+          "State": "Idle",
+          "CurrentJumpSpeed": 0.19999992847454,
+          "CurrentFallSpeed": 0.19999992847454,
+          "PreviousJumpSpeed": 0.19999992847454,
+          "PreviousFallSpeed": 0.19999992847454,
+          "HasPressedJumpKey": false,
+          "CanJump": true,
+          "ShouldStopAtZero": true,
+          "PreviousState": "Idle"
+        }
+      ],
       "content": {
         "centerLocation": "ModelOrigin",
         "depth": 120,
@@ -1637,7 +1692,61 @@
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Jump3D",
+          "type": "Jump3D::Jump3D",
+          "Object3D": "Object3D",
+          "JumpHeight": 150,
+          "MaxFallingSpeed": 700,
+          "Gravity": 1000,
+          "JumpSpeed": 600,
+          "JumpSustainDurationMax": 0.2,
+          "State": "Idle",
+          "CurrentJumpSpeed": 0.19999992847454,
+          "CurrentFallSpeed": 0.19999992847454,
+          "PreviousJumpSpeed": 0.19999992847454,
+          "PreviousFallSpeed": 0.19999992847454,
+          "HasPressedJumpKey": false,
+          "CanJump": true,
+          "ShouldStopAtZero": true,
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "Walk3D",
+          "type": "Walk3D::Walk3D",
+          "RotationSpeedMax": 180,
+          "RotationAcceleration": 720,
+          "RotationDeceleration": 720,
+          "TranslationSpeedMax": 400,
+          "TranslationAcceleration": 1600,
+          "TranslationDeceleration": 1600,
+          "CurrentRotationSpeed": 0,
+          "PreviousRotationSpeed": 0,
+          "CurrentForwardSpeed": 0,
+          "CurrentSidewaysSpeed": 0,
+          "PreviousForwardSpeed": 0,
+          "PreviousSidewaysSpeed": 0,
+          "HasPressedTurnLeft": false,
+          "HasPressedTurnRight": false,
+          "HasPressedTurnLeftLast": false,
+          "HadPressedTurnLeft": false,
+          "HadPressedTurnRight": false,
+          "HasPressedMoveForward": false,
+          "HasPressedMoveBackward": false,
+          "HadPressedMoveForward": false,
+          "HadPressedMoveBackward": false,
+          "HasPressedMoveBackwardLast": false,
+          "HasPressedMoveLeft": false,
+          "HasPressedMoveRight": false,
+          "HadPressedMoveLeft": false,
+          "HadPressedMoveRight": false,
+          "HasPressedMoveLeftLast": false,
+          "TargetedForwardSpeed": 0,
+          "TargetedSidewaysSpeed": 0,
+          "TargetedRotationSpeed": 0
+        }
+      ],
       "content": {
         "centerLocation": "ModelOrigin",
         "depth": 157,
@@ -1717,7 +1826,7 @@
       "content": {
         "width": 100,
         "height": 100,
-        "depth": 180,
+        "depth": 100,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
         "frontFaceResourceName": "",
@@ -2112,10 +2221,11 @@
             },
             {
               "type": {
-                "value": "SetAngle"
+                "value": "Scene3D::Base3DBehavior::SetRotationY"
               },
               "parameters": [
                 "Camera",
+                "Object3D",
                 "+",
                 "MousePointerLock::MovementY()/20"
               ]
