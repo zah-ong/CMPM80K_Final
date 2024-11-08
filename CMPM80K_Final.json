@@ -63,7 +63,822 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "file": "assets/Connector3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Connector.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/9f85e4a074ad373cad54cc3b8a7218b592b839bf56b27ce5bdf8562b4cc0beda_Connector.glb",
+          "name": "Connector.glb"
+        }
+      },
+      {
+        "file": "assets/Base Large3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Base Large.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/7a35663b7670f121f427cf7b6958968d18c8f08e2d5b051b0e59e0c7ab7f7a7c_Base Large.glb",
+          "name": "Base Large.glb"
+        }
+      },
+      {
+        "file": "assets/House Door3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Door.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/804782062b50b216575aa6ed63c1b49b600e684b86548abcfb66a4757b05d7be_House Door.glb",
+          "name": "House Door.glb"
+        }
+      },
+      {
+        "file": "assets/Geodesic Dome3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Geodesic Dome.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/381f8e90e79311d44d9f162945dc0efd4ed7981d99cc1891e7ebc4c6fa13743d_Geodesic Dome.glb",
+          "name": "Geodesic Dome.glb"
+        }
+      },
+      {
+        "file": "assets/Building L3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Building L.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/5e2c84cd4a48239aeac28e59000fc38bac702a807f98e530cc29e19237ac5a62_Building L.glb",
+          "name": "Building L.glb"
+        }
+      },
+      {
+        "file": "assets/House Cylinder3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Cylinder.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/f5f40820013f40a74480da63c0864742faa045e320c1cbc2bce018f2610417c3_House Cylinder.glb",
+          "name": "House Cylinder.glb"
+        }
+      },
+      {
+        "file": "assets/House Open Back3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Open Back.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/3b577c6d54e03beed1fe2c63863c8b353bc86b6fc074586634971a18a3dec595_House Open Back.glb",
+          "name": "House Open Back.glb"
+        }
+      },
+      {
+        "file": "assets/House Open3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Open.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/fcf099a286ec713ea5fbb35bbcafa18acc79526934e8bb3eca958d808b538b5a_House Open.glb",
+          "name": "House Open.glb"
+        }
+      },
+      {
+        "file": "assets/House Single Support3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Single Support.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/b903ae12777a9384b420c949a9c551346995340d32d5b971cc27b9c3b390e7a1_House Single Support.glb",
+          "name": "House Single Support.glb"
+        }
+      },
+      {
+        "file": "assets/Ramp3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Ramp.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/e0dd06b9b7f1fe4d1f41593e6a6b54c4074c702da0d311218a0476a424e95757_Ramp.glb",
+          "name": "Ramp.glb"
+        }
+      },
+      {
+        "file": "assets/Roof Vent L3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Roof Vent L.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/bfc3d25434c8125ae5e7866f8a48e9e4b920062cb485e0f0de3f27ff38a47477_Roof Vent L.glb",
+          "name": "Roof Vent L.glb"
+        }
+      },
+      {
+        "file": "assets/House Long3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Long.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/f4fac4a1fbca5b0b104ea055703e10d395502dab5047a5387dd24843b76915f5_House Long.glb",
+          "name": "House Long.glb"
+        }
+      },
+      {
+        "file": "assets/House Single3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "House Single.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/7255f4d09287a29566c4e24f331703f78a363b0fda5a3ca05e73ee01c06f0e05_House Single.glb",
+          "name": "House Single.glb"
+        }
+      },
+      {
+        "file": "assets/Roof Opening3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Roof Opening.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/4e53f67c82b9d08db05000c0711315314ddd44648266f5a451e76b0623c2b69a_Roof Opening.glb",
+          "name": "Roof Opening.glb"
+        }
+      },
+      {
+        "file": "assets/Stairs3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Stairs.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/b9ddedf4203a411642bfd8991236c7bc375ebe4684f4b1049b9cee5eb7b42cc3_Stairs.glb",
+          "name": "Stairs.glb"
+        }
+      },
+      {
+        "file": "assets/Metal Support3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Metal Support.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Building/6b5278da4aa5d04827ea97cfb53694fed878c9091c7a6711e1a210de7f221acc_Metal Support.glb",
+          "name": "Metal Support.glb"
+        }
+      },
+      {
+        "file": "assets/Planet13.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 6.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/6b338400feaa8569979fcc5d5951534ecbe994ceb6adb78c7231a09274cf8885_Planet 6.glb",
+          "name": "Planet 6.glb"
+        }
+      },
+      {
+        "file": "assets/Planet14.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/98421249d244ffd01288f3aefa8cc7f17829aedc9acd0b7338d88d8b2c617c34_Planet 1.glb",
+          "name": "Planet 1.glb"
+        }
+      },
+      {
+        "file": "assets/Planet15.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/891f0ba78bcf5d238cb0e6888deca523a7656319fe0bb28f1233eb8a9606f0ad_Planet 2.glb",
+          "name": "Planet 2.glb"
+        }
+      },
+      {
+        "file": "assets/Planet16.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 4.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/2066a4572aa5eab3e4dd5809a0c682724e4b1310d6472338ad235c64bcf85a73_Planet 4.glb",
+          "name": "Planet 4.glb"
+        }
+      },
+      {
+        "file": "assets/Planet17.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 11.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/104e8d87f827198852f41c90c4ad815cb91f5a445be00f47317fe8660aeb9cf9_Planet 11.glb",
+          "name": "Planet 11.glb"
+        }
+      },
+      {
+        "file": "assets/Planet18.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/f6eb9136b4e08d4ff1d2f5d83c7eb44697f33249e29edfb1f363c6fcec6e3ea4_Planet 3.glb",
+          "name": "Planet 3.glb"
+        }
+      },
+      {
+        "file": "assets/Planet19.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 10.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/76bae8aeb0644a4d0fef9e3d25da974b9290287cfb898a3408ee49e47c92c374_Planet 10.glb",
+          "name": "Planet 10.glb"
+        }
+      },
+      {
+        "file": "assets/Planet20.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 5.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/fa6d1cb756d936d591adb1936fea3207d4bc13ba2910d55376368b31f8f57e58_Planet 5.glb",
+          "name": "Planet 5.glb"
+        }
+      },
+      {
+        "file": "assets/Planet21.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 9.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/ee01b53f2e32ed964930a4438d45895db1c71fafdb0b9d7485f492439fe3076c_Planet 9.glb",
+          "name": "Planet 9.glb"
+        }
+      },
+      {
+        "file": "assets/Planet22.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 8.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/87c8948d24a56e38d835fb23eebb7a57d38826c1f3bf90e70a7626b901b8438c_Planet 8.glb",
+          "name": "Planet 8.glb"
+        }
+      },
+      {
+        "file": "assets/Planet23.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Planet 7.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Ball/eb304e6d31a6b89761d0532595fd37863c3151fdb760bac6210db536c0b09852_Planet 7.glb",
+          "name": "Planet 7.glb"
+        }
+      },
+      {
+        "file": "assets/Roof Antenna3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Roof Antenna.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Device/abfe084c583dd90a4cc9c6ede74216a23f05d5f226ad8cc696027b7dd19c2f75_Roof Antenna.glb",
+          "name": "Roof Antenna.glb"
+        }
+      },
+      {
+        "file": "assets/Roof Radar3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Roof Radar.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Device/1f2534662e484c7c945f4e5c6d51f380989a6fef3ed644bab92bc8567f0cefa4_Roof Radar.glb",
+          "name": "Roof Radar.glb"
+        }
+      },
+      {
+        "file": "assets/Solar Panel Ground3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Solar Panel Ground.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Device/3af098d1e8e3299edc7ce663bc87fab748681d755b6b6ab357651c85e3c99cff_Solar Panel Ground.glb",
+          "name": "Solar Panel Ground.glb"
+        }
+      },
+      {
+        "file": "assets/Solar Panel Roof3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Solar Panel Roof.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Device/21483897cf77fda075fa6b5118af5dd542f4340ed5d24054018efe5dc971d34d_Solar Panel Roof.glb",
+          "name": "Solar Panel Roof.glb"
+        }
+      },
+      {
+        "file": "assets/Solar Panel Structure3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Solar Panel Structure.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Device/d402ba60f2d6b0471f1c599b1e8c29027e43cea06cb2e2dd286c8a6b1ae21a89_Solar Panel Structure.glb",
+          "name": "Solar Panel Structure.glb"
+        }
+      },
+      {
+        "file": "assets/Pickup Crate3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pickup Crate.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Collectable/b124c0abe6624b5f07ab3de587e042d33d45cabc82309e8c38beae3efe322a72_Pickup Crate.glb",
+          "name": "Pickup Crate.glb"
+        }
+      },
+      {
+        "file": "assets/Pickup Bullets3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pickup Bullets.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Collectable/9139bd88b6be35d4e3b26a652d99edb674123c11dcffe981c14ee8105013cbb3_Pickup Bullets.glb",
+          "name": "Pickup Bullets.glb"
+        }
+      },
+      {
+        "file": "assets/Pickup Thunder3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pickup Thunder.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Collectable/97cbf0aa210c9a1e4566cfb25f47e563b07dbc55824f2cd2af7ab895a710aa6c_Pickup Thunder.glb",
+          "name": "Pickup Thunder.glb"
+        }
+      },
+      {
+        "file": "assets/Pickup Jar3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pickup Jar.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Collectable/42c437071f750429da0f2197b08a8e9e6d3732eecf76d27065fb5a1d18c5a6dd_Pickup Jar.glb",
+          "name": "Pickup Jar.glb"
+        }
+      },
+      {
+        "file": "assets/Pickup Key Card3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pickup Key Card.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Collectable/adb88d3a3e68affcf0f12960dfade208e9a3e4129a65b17ca07f4371d6063ba9_Pickup Key Card.glb",
+          "name": "Pickup Key Card.glb"
+        }
+      },
+      {
+        "file": "assets/Pickup Health3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pickup Health.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Collectable/ad0ebf466adf1b474e0af56c7c4f39b9378300d4f1bf895e01d4e37c1a0c88e4_Pickup Health.glb",
+          "name": "Pickup Health.glb"
+        }
+      },
+      {
+        "file": "assets/Pickup Sphere3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Pickup Sphere.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Collectable/73094cc19d1010286de1f5deb54d3bf6bd6238ca3087a9928426f0310386cf3e_Pickup Sphere.glb",
+          "name": "Pickup Sphere.glb"
+        }
+      },
+      {
+        "file": "assets/Grass5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Grass 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/bbae0561ae5da45ef9e08cdb6cdc04a5961d4c681024c9f86f749904570efb14_Grass 2.glb",
+          "name": "Grass 2.glb"
+        }
+      },
+      {
+        "file": "assets/Bush5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bush 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/02055d57df3f78a66dc1ed2c79dd3b209227ffd4af842cfb574188c925a5b80f_Bush 3.glb",
+          "name": "Bush 3.glb"
+        }
+      },
+      {
+        "file": "assets/Grass6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Grass 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/c8dc0075fe6d835841ccde06456d23679418715a80b20bba38a55a242cf0840f_Grass 3.glb",
+          "name": "Grass 3.glb"
+        }
+      },
+      {
+        "file": "assets/Bush6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bush 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/b82e0add6f3c34cdc8cfb99df871d4fd36ea00c6df9ffb65bb3af3f2871dfd21_Bush 1.glb",
+          "name": "Bush 1.glb"
+        }
+      },
+      {
+        "file": "assets/Bush7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Bush 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/8dda88b83ccc6a026f04684b18d397ad5bf6cfff4638518dcd30f5feccc44f0a_Bush 2.glb",
+          "name": "Bush 2.glb"
+        }
+      },
+      {
+        "file": "assets/Grass7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Grass 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/4060dba827a667eec8562a0b7d5bd9eca99de1c680bfcc8de859698a70d4cf09_Grass 1.glb",
+          "name": "Grass 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Floating5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Floating 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/135b383db0267cb51be1759d0cb83ef8ebb92d954591540df9023cfceda73ff6_Tree Floating 1.glb",
+          "name": "Tree Floating 1.glb"
+        }
+      },
+      {
+        "file": "assets/Plant5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plant 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/6906afb2557d09476e08c193fece6c87fc24438cf71b85a899e3d230392a3d05_Plant 2.glb",
+          "name": "Plant 2.glb"
+        }
+      },
+      {
+        "file": "assets/Plant6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plant 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/c1389816f44076a0cb6e78db5897e179687ac2993eb089d00dbb3a32683198d8_Plant 1.glb",
+          "name": "Plant 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Blob5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Blob 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/8c27002d60e7503e010dd84a54c1abc37da0643f65262056a7f1046cc46090bd_Tree Blob 3.glb",
+          "name": "Tree Blob 3.glb"
+        }
+      },
+      {
+        "file": "assets/Plant7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Plant 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/f5163e3bcd2e8d720d9e3a33899e0e08bf33da49b972a233bb836ee1109b8b90_Plant 3.glb",
+          "name": "Plant 3.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Blob6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Blob 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/0abba75e4da09a2e7354e3bbe418f4d5e3754ebf6ff863cb48242be9d62214e3_Tree Blob 1.glb",
+          "name": "Tree Blob 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Lava5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Lava 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/0d7ae11827901389c9b582dff0ad7c03ce13f62552c1fd324abd15e188f50888_Tree Lava 1.glb",
+          "name": "Tree Lava 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Blob7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Blob 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/210e0a9aa49dfb51dda20f36673c8cb405f0bd0e655485344c193849eb455c7a_Tree Blob 2.glb",
+          "name": "Tree Blob 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Floating6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Floating 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/499a7567f59b739696f6c6f3f5e1f2ebffd56e8c9f3c0abcf5bc795c0b8e53cf_Tree Floating 2.glb",
+          "name": "Tree Floating 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Lava6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Lava 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/b7d576b4b127c622e17d2426dad23c3a0685df97224ac99447a5d31a2e6ece23_Tree Lava 3.glb",
+          "name": "Tree Lava 3.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Floating7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Floating 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/cc4c2178b0139f08ea754db57d6e211e033c020a4c0be6efafcfc67a2e89637b_Tree Floating 3.glb",
+          "name": "Tree Floating 3.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Lava7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Lava 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/11d5e150fc9e9efe8f2342a94a32ff7c17b3b08fc42bb273fccad50cdea37428_Tree Lava 2.glb",
+          "name": "Tree Lava 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Light4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Light 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/96698e80982b4fd7a7ab9ddf278f1bea3b4c290152153292effe599e055b53ab_Tree Light 2.glb",
+          "name": "Tree Light 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Light5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Light 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/aae30bff5007a337b0de9113e0867febe65c4de222e92d71f1d4e077a5a03f91_Tree Light 1.glb",
+          "name": "Tree Light 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Spikes4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Spikes 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/b5d243210fecb740daf48b06b5b7ee7b598961356bdb805bee9052d8574ea953_Tree Spikes 1.glb",
+          "name": "Tree Spikes 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Spikes5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Spikes 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/0b925fb2a6355d4586056d4e11ff51db86be6c4a1c841722424919f58582315c_Tree Spikes 2.glb",
+          "name": "Tree Spikes 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Spiral5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Spiral 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/207e9c588cfdb4fa5e97f9aef716e4f04d05d817f480be80cf752262d7d59be9_Tree Spiral 1.glb",
+          "name": "Tree Spiral 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Spiral6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Spiral 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/0bd129bf43025c017122d02459a8cf852ddc6bd5728d3742f4c059c7c146bbc3_Tree Spiral 2.glb",
+          "name": "Tree Spiral 2.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Spiral7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Spiral 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/74ab95b20b802be1d7fae1b2d1fa3755e8328d3d8ef6184c1f66bb791ef12f5b_Tree Spiral 3.glb",
+          "name": "Tree Spiral 3.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Swirl4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Swirl 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/f6df0d6d91a31f403c2f9ad72c8ca80eff6cf7af5396ab274889ba81b2cc7a35_Tree Swirl 1.glb",
+          "name": "Tree Swirl 1.glb"
+        }
+      },
+      {
+        "file": "assets/Tree Swirl5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Tree Swirl 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Plant/c7b780d71c024474c357eb80e141acf65c59d3825fc35ab0b8dfb82ec7ca54f6_Tree Swirl 2.glb",
+          "name": "Tree Swirl 2.glb"
+        }
+      },
+      {
+        "file": "assets/Rock Large5.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock Large 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Rock/c0ec6b0b60ec46afe2a2ca2547d9c74e6a6d696d07bcfccf72f0ad6e5a4adde1_Rock Large 1.glb",
+          "name": "Rock Large 1.glb"
+        }
+      },
+      {
+        "file": "assets/Rock6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Rock/6beb192806ecb388e3abb9472ac9dd33a7d78cfe95224257bd3d4bdc59ff8229_Rock 2.glb",
+          "name": "Rock 2.glb"
+        }
+      },
+      {
+        "file": "assets/Rock7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock 4.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Rock/b7be5cb3cb6b7c1bb33e4ccaa9a61e6475c3c130dc2a8ad45bf9184a9d94cc8b_Rock 4.glb",
+          "name": "Rock 4.glb"
+        }
+      },
+      {
+        "file": "assets/Rock8.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Rock/13a0b26fb864925f58c499757e2cde1defbe28b5d58e253e8474b95361d65e97_Rock 3.glb",
+          "name": "Rock 3.glb"
+        }
+      },
+      {
+        "file": "assets/Rock9.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock 1.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Rock/77804e40c0242df5a1fe333c3d5520e57a2dbdb81f23140cd10883b3282af352_Rock 1.glb",
+          "name": "Rock 1.glb"
+        }
+      },
+      {
+        "file": "assets/Rock Large6.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock Large 2.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Rock/1ded3f16d448b4fadb4e8f0672a9975ee71f8a69b58d0fcea16af76b188ef5b7_Rock Large 2.glb",
+          "name": "Rock Large 2.glb"
+        }
+      },
+      {
+        "file": "assets/Rock Large7.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Rock Large 3.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Rock/52fe565c3bce448c1557f55b47e1a191bab16ab976190879f1127bad603cf0e0_Rock Large 3.glb",
+          "name": "Rock Large 3.glb"
+        }
+      },
+      {
+        "file": "assets/Astronaut Rae The Red Panda3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Astronaut Rae The Red Panda.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Characters/7f1a0ecc2d0d7de6f5b07753a696adc9576883e3396d34288e6e945f3c5ebfed_Astronaut Rae The Red Panda.glb",
+          "name": "Astronaut Rae The Red Panda.glb"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -79,7 +894,28 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/collision3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/mousepointerlock"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/firstpersoncamera"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/jump3d"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/walk3d"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }

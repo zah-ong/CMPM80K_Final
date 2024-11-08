@@ -24,11 +24,2296 @@
   "objectsGroups": [],
   "variables": [],
   "instances": [],
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "30f1bb950cbd99f20ef9ff9bdb867e557ee6083262fa234da1805dc42b2df3c6",
+      "name": "Connector",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 101,
+        "height": 101,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Connector.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 101,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "a9597027343ebb43aef66476608f4bbbf862abee3a19d2466f049e03d17b0f0f",
+      "name": "BaseLarge",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 256,
+        "height": 256,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Base Large.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 256,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "6c8244fa2407bcdc84e39a84c6f9a7949c9decf136ac9a721365e16d71bbe950",
+      "name": "HouseDoor",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 61,
+        "height": 61,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Door.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 61,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "0555179d5debfb863b76b8f27359c81ff85c1d5414d332733ba1807fc3e9e26a",
+      "name": "GeodesicDome",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 256,
+        "height": 256,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Geodesic Dome.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 256,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2c11de37958beb73e13a0f860f9bfc294a48881c31cc0b55a3a61cb2b23bf139",
+      "name": "BuildingL",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 234,
+        "height": 234,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Building L.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 234,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "b4f72c19b03d90e4682a5735c4990fde1e1346418ab36ae38fa0bb257e748434",
+      "name": "HouseCylinder",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 168,
+        "height": 168,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Cylinder.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 168,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "d442eaad882e84098b06ba344163929c805fbee25f8a4a43a38046689e0a4352",
+      "name": "HouseOpenBack",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Open Back.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8db608a26dd01450534a2be271e003d74322530c57bcaac9d7d08ff56b9c3d6b",
+      "name": "HouseOpen",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Open.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "44f9cbbb2bf5bd6dcdde1f2b9bb8878b50e2bcaf802ec984e9274afa11c72019",
+      "name": "HouseSingleSupport",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 107,
+        "height": 107,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Single Support.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 107,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1517220150682655790c06b6749072cef588d90c3d560c6b9c64f5fb0a6d65ba",
+      "name": "Ramp",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 93,
+        "height": 93,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Ramp.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 93,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c4aa493c06afabeef3a9b2a6e8d611f7ca0bc6e38959d942a7d658d59292a9d9",
+      "name": "RoofVentL",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 43,
+        "height": 43,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Roof Vent L.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 43,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "aeea35ff684cae11a3f167d85b9fca94bec46bae515fca546b79038e7459b11a",
+      "name": "HouseLong",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 234,
+        "height": 234,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Long.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 234,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ffba0074a39910761ed156661b2921f39f5032700ad7d4ff12230c485208d9b3",
+      "name": "HouseSingle",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "House Single.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "eec190f90bbeecac94eb2ab325fe34d83e182ff402322695cd4477cb50f8b139",
+      "name": "RoofOpening",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 43,
+        "height": 43,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Roof Opening.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 43,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "9d939dc24d9b809b9b1b6064cd00d8a54014f9699138b0f9063918259f9dafe3",
+      "name": "Stairs",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 93,
+        "height": 93,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Stairs.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 93,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c17c6e398c5fa2f8b0a954f621996ec2d0a596ab9985e8438dd262a33f1c9c87",
+      "name": "MetalSupport",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 179,
+        "height": 179,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Metal Support.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 179,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2b16d808e7a1d358875e60d68e4c987752617e018354e662cdf6eacea3036a81",
+      "name": "Planet6",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 113,
+        "height": 113,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 6.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 113,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ec2bb6b6658773be0d359647655ca0f985e11a7bf52aa883c21ab161ef8f9686",
+      "name": "Planet1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "62a704234578461f86d1d38637308667af4d391f6cb86c854470913dd799dbea",
+      "name": "Planet2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 118,
+        "height": 118,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 118,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "7e31a8fcf693d4c70f0ef3f05bef76be1e678d363bc2ea80711be65017e9b686",
+      "name": "Planet4",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 136,
+        "height": 136,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 4.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 136,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c2b98d97ae8b3b741919988d447da552769dfbaa1503a5ce2629ad414f7a05ca",
+      "name": "Planet11",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 172,
+        "height": 172,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 11.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 172,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c7c4ce58fe565dddaa33de790e9d899ad753856ec94f9f519dfd8b5867f0e8ea",
+      "name": "Planet3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 110,
+        "height": 110,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 110,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "4c607a2510a293c9d5a1dc77d9e3d155082c71e150562138a9422149b505ac8b",
+      "name": "Planet10",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 172,
+        "height": 172,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 10.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 172,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "91b96c5c649a64e5178cc0623a199c86daecc4dbac8067e42681a2ec05f047c3",
+      "name": "Planet5",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 135,
+        "height": 135,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 5.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 135,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "fe88e407da1fdadeeed1955220325b4865b5024ef6023e8005696ffcb784f7b7",
+      "name": "Planet9",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 114,
+        "height": 114,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 9.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 114,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ef1e0acbeff96c2a750b169344ecb6d952d743dd82a07805fb2ea3a6427fa000",
+      "name": "Planet8",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 113,
+        "height": 113,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 8.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 113,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "5737d543bc92546482945f97e0de15a31bc19278ac174d73b457c4e1f6a661c4",
+      "name": "Planet7",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 144,
+        "height": 144,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 7.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 144,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "fe935421e3a0278b734e6c2ba6f8dffcc9288c02ca293b60c9aab8b6b378b304",
+      "name": "RoofAntenna",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 106,
+        "height": 106,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Roof Antenna.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 106,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c7b36267d60bed58ccc62ba7df068fbb4674ed371197ab7ac30aa376f072d34d",
+      "name": "RoofRadar",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 81,
+        "height": 81,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Roof Radar.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 81,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "20097befbec8786921fd1c935b418e713588040e58fd2eee77a58937af8c0d92",
+      "name": "SolarPanelGround",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 50,
+        "height": 50,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Solar Panel Ground.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 50,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "aa285d8f7b2f23656af47f6b2ad39e879a39b7766cd4dc1656ab564a42bfb334",
+      "name": "SolarPanelRoof",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 82,
+        "height": 82,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Solar Panel Roof.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 82,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "4cc2ced13ab4cd70b3bf6e9da7a3095774a4a798f40eaef12801fccc3c4ac45c",
+      "name": "SolarPanelStructure",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 120,
+        "height": 120,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Solar Panel Structure.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 120,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "bec37f2a66b62ad7996aaec46f6d2579e94daab137388e65e8eb3785b2666916",
+      "name": "PickupCrate",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 27,
+        "height": 27,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pickup Crate.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 27,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2246f61fa603a84b524eb4616969ddc807e05a72e443d6a757617b92f5f86635",
+      "name": "PickupBullets",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 25,
+        "height": 25,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pickup Bullets.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 25,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "4393225393e012ff0f51f9e91877bc8c6c07bfc6acdd58626ee40ca16b1dba35",
+      "name": "PickupThunder",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 29,
+        "height": 29,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pickup Thunder.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 29,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "0c17868f85bb049f5e934c52b132d98fb347473d4e240194dee48537706399c6",
+      "name": "PickupJar",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 31,
+        "height": 31,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pickup Jar.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 31,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "126154a56311f44b6907d85ba86f6825b401f6e44fa7dc229a88990a2c4c3a53",
+      "name": "PickupKeyCard",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 31,
+        "height": 31,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pickup Key Card.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 31,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "57aa89d4ab733327e0c6e20097310f501e23d9254558c04a2f29b7cc58e983d9",
+      "name": "PickupHealth",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pickup Health.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 30,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "e887ded78e126117610d8506796b363de275960299ab337df8abdc1740afb956",
+      "name": "PickupSphere",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 27,
+        "height": 27,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Pickup Sphere.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 27,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "a74f5e0a707d86d0e7a410346f34a3a234c45e5709194cf52e03072ef4be6790",
+      "name": "Grass2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 51,
+        "height": 51,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Grass 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 51,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "19f5c4a1c21fefaab1056dd43c5249aac294cd109ee896827c377a665d0278e7",
+      "name": "Bush3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 56,
+        "height": 56,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bush 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 56,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "4dd5b2c7281c139249b8b42b53f75f5784d4be2dedf3205068d807d9e113d068",
+      "name": "Grass3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 71,
+        "height": 71,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Grass 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 71,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "35dd98760eaac75cdafc0c4ffa40caec200e151d2aeb9121497942cbb8b6c1b2",
+      "name": "Bush1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 98,
+        "height": 98,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bush 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 98,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "f90fea7449b982f1e2d086fe98a389bb4933383b72495eee26b5f210875b90c2",
+      "name": "Bush2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 55,
+        "height": 55,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Bush 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 55,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "a8725b2c0d28e80881a50eccfde78e5bbc043b865be97b1d3d627f1cf5fdfc5b",
+      "name": "Grass1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 38,
+        "height": 38,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Grass 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 38,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "16d75860a91bcd45ceeb638b5e3ffc8f40f0b166bed0633f5069a77bd0354bfc",
+      "name": "TreeFloating1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 138,
+        "height": 138,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Floating 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 138,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "04609216da14636d206dbfc24fb43f6da01c7d25b81f5c295b40e7755d2cd0e0",
+      "name": "Plant2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 59,
+        "height": 59,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Plant 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 59,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "97b94d5bb870bb7faa1e34a2d1501ab90cff2957c33c748e566ebed3ac855099",
+      "name": "Plant1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 65,
+        "height": 65,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Plant 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 65,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "299e731367944cbc8eaf1d93a6d47414a1683b579fb349bc0f9bc564cf9c3dba",
+      "name": "TreeBlob3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 103,
+        "height": 103,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Blob 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 103,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "d953eafd98c10fae1b289c5609d92668fa11b80ebb676594b664575cc96a0f35",
+      "name": "Plant3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 89,
+        "height": 89,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Plant 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 89,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "9983250bd761c4aceae61063fdd2bfaa79a9bd9c43f3e55ebd186edfa86693c9",
+      "name": "TreeBlob1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 176,
+        "height": 176,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Blob 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 176,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2da96395094724eb809af39fe19b67d04dc5b30834413bd01485bdb994650ca5",
+      "name": "TreeLava1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 97,
+        "height": 97,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Lava 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 97,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "49863a70cf7c0cad15617682362b2265e59359b2308c815e603c9b4adb37d6f6",
+      "name": "TreeBlob2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 138,
+        "height": 138,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Blob 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 138,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c9a47cd3abae0af3988153a4b5a9892b6b1cc07f790757bc92852e1e6535d761",
+      "name": "TreeFloating2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 176,
+        "height": 176,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Floating 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 176,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "90a8b481d980d01e68981916707c9db126a5bae4d05424b1d750a01974789b66",
+      "name": "TreeLava3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 63,
+        "height": 63,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Lava 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 63,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ffff8b64331354643ac57e9fd398e3c67c5752210f4bdfab5f12dc55e6979b25",
+      "name": "TreeFloating3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 156,
+        "height": 156,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Floating 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 156,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "de985ed34659de76045a4f5538d5271d82a80504bb94a6faea7192133445820a",
+      "name": "TreeLava2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 92,
+        "height": 92,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Lava 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 92,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "cd5635d0d5342ff1e9f607936bc17cd1037cb970c58e78707ad683677ca833d4",
+      "name": "TreeLight2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 75,
+        "height": 75,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Light 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 75,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2fb73117a33634e9ce87e6a481f6e50977ef3e01c371a21c3d140bb656c0f182",
+      "name": "TreeLight1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 113,
+        "height": 113,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Light 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 113,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ee829eab17f8a6e2754a786c96ee788fefe51c101c2dc1bbd9e55765498baa61",
+      "name": "TreeSpikes1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 155,
+        "height": 155,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Spikes 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 155,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "2ad3837f4f10d701485655bf6395fa24fb3dfc718db2b8a4983419d089cdf27d",
+      "name": "TreeSpikes2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 135,
+        "height": 135,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Spikes 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 135,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ccf1b58bbcb4abcd010390e65a61be77a9b6f03dd8990fbead11cb5f3c4c8ceb",
+      "name": "TreeSpiral1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 135,
+        "height": 135,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Spiral 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 135,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "35ee90465e48c2fb705c7cb65318e66096a5ddc392d55f8947ece20e09e2b36c",
+      "name": "TreeSpiral2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 186,
+        "height": 186,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Spiral 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 186,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "166447b3077607c69dfc0888c6094d92279c620eb8b560b53d397a55b564a8f6",
+      "name": "TreeSpiral3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 127,
+        "height": 127,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Spiral 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 127,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "cfee69303b327bb1141e0d155bd33f96a0f6fb05239a812147d5f920c666dcd3",
+      "name": "TreeSwirl1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 220,
+        "height": 220,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Swirl 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 220,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "fc39feb06a9bb34d34f29757dc151e0e9f055f2a7f3100d80ae72939bce23b9a",
+      "name": "TreeSwirl2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 155,
+        "height": 155,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Tree Swirl 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 155,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "8d187e6cdfe5d00bec798a6050e94018176c236572bbe24cb3cd742cd9722818",
+      "name": "RockLarge1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 230,
+        "height": 230,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rock Large 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 230,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "df3ec416b9907eec342b7590b0953d1a32f75fe194fe3a49eb62cde6aa5f0391",
+      "name": "Rock2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 82,
+        "height": 82,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rock 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 82,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "dfde4c68cfac1a19f06a9f7cfdc5b05df7181265711d554bfe8763050aa907c2",
+      "name": "Rock4",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 104,
+        "height": 104,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rock 4.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 104,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "9898c1be71e304a055fcb859d06046dd160f52af4d54d5666bce064e996d55c7",
+      "name": "Rock3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 115,
+        "height": 115,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rock 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 115,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "1365cdbea3917df4b0647e2ce729eea3f4a59f0413af00255712e05f88e94f8d",
+      "name": "Rock1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 108,
+        "height": 108,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rock 1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 108,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "79bb27dab2fc504331bcbafea087d429158405ac24c6f0d874225b3d80380e3b",
+      "name": "RockLarge2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 256,
+        "height": 256,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rock Large 2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 256,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "ad668e835454a39b9a1f750ca21cd0f72142396dbdde07b7ca4629db7f8dd489",
+      "name": "RockLarge3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 223,
+        "height": 223,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Rock Large 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 223,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "964c5df948747d057c8110ff2f526fb4e6831e89620e1d18481ffb4ab78aaf6d",
+      "name": "AstronautRaeTheRedPanda",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 157,
+        "height": 157,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Astronaut Rae The Red Panda.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 157,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Camera",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Jump3D",
+          "type": "Jump3D::Jump3D",
+          "Object3D": "Object3D",
+          "JumpHeight": 150,
+          "MaxFallingSpeed": 700,
+          "Gravity": 1000,
+          "JumpSpeed": 600,
+          "JumpSustainDurationMax": 0.2,
+          "State": "Idle",
+          "CurrentJumpSpeed": 0.19999992847454,
+          "CurrentFallSpeed": 0.19999992847454,
+          "PreviousJumpSpeed": 0.19999992847454,
+          "PreviousFallSpeed": 0.19999992847454,
+          "HasPressedJumpKey": false,
+          "CanJump": true,
+          "ShouldStopAtZero": true,
+          "PreviousState": "Idle"
+        },
+        {
+          "name": "Walk3D",
+          "type": "Walk3D::Walk3D",
+          "RotationSpeedMax": 180,
+          "RotationAcceleration": 720,
+          "RotationDeceleration": 720,
+          "TranslationSpeedMax": 400,
+          "TranslationAcceleration": 1600,
+          "TranslationDeceleration": 1600,
+          "CurrentRotationSpeed": 0,
+          "PreviousRotationSpeed": 0,
+          "CurrentForwardSpeed": 0,
+          "CurrentSidewaysSpeed": 0,
+          "PreviousForwardSpeed": 0,
+          "PreviousSidewaysSpeed": 0,
+          "HasPressedTurnLeft": false,
+          "HasPressedTurnRight": false,
+          "HasPressedTurnLeftLast": false,
+          "HadPressedTurnLeft": false,
+          "HadPressedTurnRight": false,
+          "HasPressedMoveForward": false,
+          "HasPressedMoveBackward": false,
+          "HadPressedMoveForward": false,
+          "HadPressedMoveBackward": false,
+          "HasPressedMoveBackwardLast": false,
+          "HasPressedMoveLeft": false,
+          "HasPressedMoveRight": false,
+          "HadPressedMoveLeft": false,
+          "HadPressedMoveRight": false,
+          "HasPressedMoveLeftLast": false,
+          "TargetedForwardSpeed": 0,
+          "TargetedSidewaysSpeed": 0,
+          "TargetedRotationSpeed": 0
+        }
+      ],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 180,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Connector"
+      },
+      {
+        "objectName": "BaseLarge"
+      },
+      {
+        "objectName": "HouseDoor"
+      },
+      {
+        "objectName": "GeodesicDome"
+      },
+      {
+        "objectName": "BuildingL"
+      },
+      {
+        "objectName": "HouseCylinder"
+      },
+      {
+        "objectName": "HouseOpenBack"
+      },
+      {
+        "objectName": "HouseOpen"
+      },
+      {
+        "objectName": "HouseSingleSupport"
+      },
+      {
+        "objectName": "Ramp"
+      },
+      {
+        "objectName": "RoofVentL"
+      },
+      {
+        "objectName": "HouseLong"
+      },
+      {
+        "objectName": "HouseSingle"
+      },
+      {
+        "objectName": "RoofOpening"
+      },
+      {
+        "objectName": "Stairs"
+      },
+      {
+        "objectName": "MetalSupport"
+      },
+      {
+        "objectName": "Planet1"
+      },
+      {
+        "objectName": "Planet2"
+      },
+      {
+        "objectName": "Planet3"
+      },
+      {
+        "objectName": "Planet4"
+      },
+      {
+        "objectName": "Planet5"
+      },
+      {
+        "objectName": "Planet6"
+      },
+      {
+        "objectName": "Planet8"
+      },
+      {
+        "objectName": "Planet7"
+      },
+      {
+        "objectName": "Planet9"
+      },
+      {
+        "objectName": "Planet10"
+      },
+      {
+        "objectName": "Planet11"
+      },
+      {
+        "objectName": "RoofAntenna"
+      },
+      {
+        "objectName": "RoofRadar"
+      },
+      {
+        "objectName": "SolarPanelGround"
+      },
+      {
+        "objectName": "SolarPanelRoof"
+      },
+      {
+        "objectName": "SolarPanelStructure"
+      },
+      {
+        "objectName": "PickupCrate"
+      },
+      {
+        "objectName": "PickupBullets"
+      },
+      {
+        "objectName": "PickupThunder"
+      },
+      {
+        "objectName": "PickupJar"
+      },
+      {
+        "objectName": "PickupKeyCard"
+      },
+      {
+        "objectName": "PickupHealth"
+      },
+      {
+        "objectName": "PickupSphere"
+      },
+      {
+        "objectName": "Grass2"
+      },
+      {
+        "objectName": "Bush3"
+      },
+      {
+        "objectName": "Grass3"
+      },
+      {
+        "objectName": "Bush1"
+      },
+      {
+        "objectName": "Bush2"
+      },
+      {
+        "objectName": "Grass1"
+      },
+      {
+        "objectName": "TreeFloating1"
+      },
+      {
+        "objectName": "Plant2"
+      },
+      {
+        "objectName": "Plant1"
+      },
+      {
+        "objectName": "TreeBlob3"
+      },
+      {
+        "objectName": "Plant3"
+      },
+      {
+        "objectName": "TreeBlob1"
+      },
+      {
+        "objectName": "TreeLava1"
+      },
+      {
+        "objectName": "TreeBlob2"
+      },
+      {
+        "objectName": "TreeFloating2"
+      },
+      {
+        "objectName": "TreeLava3"
+      },
+      {
+        "objectName": "TreeFloating3"
+      },
+      {
+        "objectName": "TreeLava2"
+      },
+      {
+        "objectName": "TreeLight2"
+      },
+      {
+        "objectName": "TreeLight1"
+      },
+      {
+        "objectName": "TreeSpikes1"
+      },
+      {
+        "objectName": "TreeSpikes2"
+      },
+      {
+        "objectName": "TreeSpiral1"
+      },
+      {
+        "objectName": "TreeSpiral2"
+      },
+      {
+        "objectName": "TreeSpiral3"
+      },
+      {
+        "objectName": "TreeSwirl1"
+      },
+      {
+        "objectName": "TreeSwirl2"
+      },
+      {
+        "objectName": "RockLarge1"
+      },
+      {
+        "objectName": "Rock2"
+      },
+      {
+        "objectName": "Rock4"
+      },
+      {
+        "objectName": "Rock3"
+      },
+      {
+        "objectName": "Rock1"
+      },
+      {
+        "objectName": "RockLarge2"
+      },
+      {
+        "objectName": "RockLarge3"
+      },
+      {
+        "objectName": "AstronautRaeTheRedPanda"
+      },
+      {
+        "objectName": "Camera"
+      }
+    ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Camera"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "Planet1",
+            "Object3D",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Camera Controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "SystemInfo::IsMobile"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "MousePointerLock::isPointerLocked"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MousePointerLock::RequestPointerLock"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MousePointerLock::isPointerLocked"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Camera",
+                "+",
+                "MousePointerLock::MovementX()/20"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Camera",
+                "+",
+                "MousePointerLock::MovementY()/20"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene3D::SetCameraRotationY"
+          },
+          "parameters": [
+            "",
+            "=",
+            "clamp(Camera.Object3D::RotationY(), -90, 90)",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "FirstPersonCamera::LookFromObjectEyes"
+          },
+          "parameters": [
+            "",
+            "Camera",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene3D::SetCameraZ"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Camera.Object3D::Depth()",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Player Controls",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SimulateMoveForwardKey"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SimulateMoveLeftKey"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SimulateMoveBackwardKey"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SimulateMoveRightKey"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SimulateJumpKey"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -73,7 +2358,71 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Jump3D",
+      "type": "Jump3D::Jump3D"
+    },
+    {
+      "name": "Object3D",
+      "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Walk3D",
+      "type": "Walk3D::Walk3D",
+      "Cos": 0,
+      "Sin": 0
+    }
+  ]
 }
