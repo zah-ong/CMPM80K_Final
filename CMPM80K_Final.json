@@ -877,6 +877,19 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Space Station/Characters/7f1a0ecc2d0d7de6f5b07753a696adc9576883e3396d34288e6e945f3c5ebfed_Astronaut Rae The Red Panda.glb",
           "name": "Astronaut Rae The Red Panda.glb"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_black space.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_black space.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
+          "name": "tiled_black space.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -895,6 +908,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/withthreejs"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/thirdpersoncamera"

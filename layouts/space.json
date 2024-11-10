@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4194339782759061,
+    "zoomFactor": 0.47893418845352503,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,17 +26,17 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 465,
-      "height": 1070,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Planet1",
-      "persistentUuid": "3d881115-3b8e-4b34-b99d-f0a4cf7e6ddc",
-      "width": 1605,
-      "x": 709,
-      "y": 371,
-      "zOrder": 1,
+      "name": "Camera",
+      "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
+      "width": 0,
+      "x": 349,
+      "y": 224,
+      "z": 1,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -47,13 +47,29 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Camera",
-      "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
+      "name": "Planet1",
+      "persistentUuid": "d01584a3-cdce-4b1e-a8f5-273f1ce2ea74",
       "width": 0,
-      "x": 579,
-      "y": 267,
-      "z": 300,
-      "zOrder": 2,
+      "x": 670,
+      "y": 269,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 719,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Space",
+      "persistentUuid": "fb4e7ec7-a7bf-4560-b811-fd9b0e2fc10e",
+      "width": 1280,
+      "x": -2,
+      "y": -1,
+      "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -465,7 +481,7 @@
         "centerLocation": "ModelOrigin",
         "depth": 120,
         "height": 120,
-        "keepAspectRatio": true,
+        "keepAspectRatio": false,
         "materialType": "StandardWithoutMetalness",
         "modelResourceName": "Planet 1.glb",
         "originLocation": "ModelOrigin",
@@ -1850,6 +1866,73 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
       }
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 256,
+      "name": "BlackSpace",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 256,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Space",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlaneProjectionFromTiled",
+          "type": "WithThreeJS::PlaneProjectionFromTiled",
+          "Id": "",
+          "FirstFrame": true,
+          "Hide": true,
+          "AlphaTest": 0,
+          "AntiAliasing": true,
+          "Blend": "Normal",
+          "Rotate90": false,
+          "Depth": 0,
+          "CastShadow": false,
+          "ReceiveShadow": false,
+          "TextureId": "",
+          "OffsetV": 2.0247e-320
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Ground",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PlaneProjectionFromTiled",
+          "type": "WithThreeJS::PlaneProjectionFromTiled",
+          "Id": "",
+          "FirstFrame": true,
+          "Hide": true,
+          "AlphaTest": 0,
+          "AntiAliasing": true,
+          "Blend": "Normal",
+          "Rotate90": false,
+          "Depth": 0,
+          "CastShadow": false,
+          "ReceiveShadow": false,
+          "TextureId": "",
+          "OffsetV": 2.0247e-320
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2079,6 +2162,15 @@
       },
       {
         "objectName": "Camera"
+      },
+      {
+        "objectName": "BlackSpace"
+      },
+      {
+        "objectName": "Space"
+      },
+      {
+        "objectName": "Ground"
       }
     ]
   },
@@ -2109,7 +2201,25 @@
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "WithThreeJS::Create3DSceneV2"
+          },
+          "parameters": [
+            "",
+            "\"0;0;0\"",
+            "tiled_black space.png",
+            "\"255;255;255\"",
+            "\"\"",
+            "1",
+            "1000",
+            "1",
+            "\"Top Down\"",
+            ""
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -2216,7 +2326,7 @@
               "parameters": [
                 "Camera",
                 "+",
-                "MousePointerLock::MovementX()/20"
+                "MousePointerLock::MovementX()/17.5"
               ]
             },
             {
@@ -2227,50 +2337,20 @@
                 "Camera",
                 "Object3D",
                 "+",
-                "MousePointerLock::MovementY()/20"
+                "clamp(MousePointerLock::MovementY()/17.5,-90,90)"
+              ]
+            },
+            {
+              "type": {
+                "value": "FirstPersonCamera::LookFromObjectEyes"
+              },
+              "parameters": [
+                "",
+                "Camera",
+                "",
+                ""
               ]
             }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene3D::SetCameraRotationY"
-          },
-          "parameters": [
-            "",
-            "=",
-            "clamp(Camera.Object3D::RotationY(), -90, 90)",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "FirstPersonCamera::LookFromObjectEyes"
-          },
-          "parameters": [
-            "",
-            "Camera",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene3D::SetCameraZ"
-          },
-          "parameters": [
-            "",
-            "=",
-            "Camera.Object3D::Depth()",
-            "",
-            ""
           ]
         }
       ]
@@ -2509,6 +2589,10 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
     },
@@ -2519,6 +2603,14 @@
     {
       "name": "Object3D",
       "type": "Scene3D::Base3DBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PlaneProjectionFromTiled",
+      "type": "WithThreeJS::PlaneProjectionFromTiled"
     },
     {
       "name": "Resizable",
