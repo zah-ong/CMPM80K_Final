@@ -901,6 +901,13 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Mini Dungeon/59d846fd33a86eab8dbbf74490d3991c95db339f58cff86fcadd9e548ba4f8db_floor-detail.glb",
           "name": "floor-detail.glb"
         }
+      },
+      {
+        "file": "oxygen_farm_1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "oxygen_farm_1.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []

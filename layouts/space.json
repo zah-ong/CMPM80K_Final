@@ -33,8 +33,8 @@
       "name": "Camera",
       "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
       "width": 0,
-      "x": 187,
-      "y": 313,
+      "x": 366,
+      "y": 365,
       "z": 1,
       "zOrder": 2,
       "numberProperties": [],
@@ -51,8 +51,8 @@
       "name": "Planet1",
       "persistentUuid": "13a8d78b-21ed-4e5c-b73a-d0ee9c57c811",
       "width": 226,
-      "x": 1015,
-      "y": 215,
+      "x": 835,
+      "y": 159,
       "z": -50,
       "zOrder": 6,
       "numberProperties": [],
@@ -60,18 +60,18 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 37,
-      "height": 719,
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "FloorDetail",
-      "persistentUuid": "790cf138-8c4d-4b08-b6ed-aca78c0f92fd",
-      "width": 1279,
-      "x": 639,
-      "y": 359,
-      "zOrder": 7,
+      "name": "New3DModel",
+      "persistentUuid": "f5120072-852a-49f4-b602-7224f53d5951",
+      "rotationX": 270,
+      "width": 0,
+      "x": 1015,
+      "y": 338,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1977,6 +1977,63 @@
         "width": 30,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DBox",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DModel",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "oxygen_farm_1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2218,6 +2275,12 @@
       },
       {
         "objectName": "FloorDetail"
+      },
+      {
+        "objectName": "New3DBox"
+      },
+      {
+        "objectName": "New3DModel"
       }
     ]
   },
