@@ -890,6 +890,17 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter/Backgrounds/82e24c48618660952ceb6cede5c9917ceeb4371c9e971f4a49fb43689d045d89_tiled_black space.png",
           "name": "tiled_black space.png"
         }
+      },
+      {
+        "file": "assets/floor-detail.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "floor-detail.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Mini Dungeon/59d846fd33a86eab8dbbf74490d3991c95db339f58cff86fcadd9e548ba4f8db_floor-detail.glb",
+          "name": "floor-detail.glb"
+        }
       }
     ],
     "resourceFolders": []

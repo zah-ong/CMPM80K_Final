@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.47893418845352503,
+    "zoomFactor": 0.5843784410740952,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -33,8 +33,8 @@
       "name": "Camera",
       "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
       "width": 0,
-      "x": 349,
-      "y": 224,
+      "x": 187,
+      "y": 313,
       "z": 1,
       "zOrder": 2,
       "numberProperties": [],
@@ -43,16 +43,18 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 226,
+      "height": 226,
       "keepRatio": true,
       "layer": "",
       "name": "Planet1",
-      "persistentUuid": "d01584a3-cdce-4b1e-a8f5-273f1ce2ea74",
-      "width": 0,
-      "x": 670,
-      "y": 269,
-      "zOrder": 4,
+      "persistentUuid": "13a8d78b-21ed-4e5c-b73a-d0ee9c57c811",
+      "width": 226,
+      "x": 1015,
+      "y": 215,
+      "z": -50,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -60,16 +62,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
+      "depth": 37,
       "height": 719,
       "keepRatio": true,
       "layer": "",
-      "name": "Space",
-      "persistentUuid": "fb4e7ec7-a7bf-4560-b811-fd9b0e2fc10e",
-      "width": 1280,
-      "x": -2,
-      "y": -1,
-      "zOrder": -2,
+      "name": "FloorDetail",
+      "persistentUuid": "790cf138-8c4d-4b08-b6ed-aca78c0f92fd",
+      "width": 1279,
+      "x": 639,
+      "y": 359,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1933,6 +1935,48 @@
           "OffsetV": 2.0247e-320
         }
       ]
+    },
+    {
+      "assetStoreId": "280e95e029ea45a4229da43956e17f9887eb6cbad5c3362c6ca8697451a5cd92",
+      "name": "FloorDetail",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Jump3D",
+          "type": "Jump3D::Jump3D",
+          "Object3D": "Object3D",
+          "JumpHeight": 150,
+          "MaxFallingSpeed": 700,
+          "Gravity": 1000,
+          "JumpSpeed": 600,
+          "JumpSustainDurationMax": 0.2,
+          "State": "Idle",
+          "CurrentJumpSpeed": 0.19999992847454,
+          "CurrentFallSpeed": 0.19999992847454,
+          "PreviousJumpSpeed": 0.19999992847454,
+          "PreviousFallSpeed": 0.19999992847454,
+          "HasPressedJumpKey": false,
+          "CanJump": true,
+          "ShouldStopAtZero": true,
+          "PreviousState": "Idle"
+        }
+      ],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 30,
+        "height": 30,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "floor-detail.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": -90,
+        "width": 30,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2171,6 +2215,9 @@
       },
       {
         "objectName": "Ground"
+      },
+      {
+        "objectName": "FloorDetail"
       }
     ]
   },
@@ -2233,6 +2280,18 @@
             "Camera",
             "Jump3D",
             "Planet1",
+            "Object3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "FloorDetail",
             "Object3D",
             ""
           ]
