@@ -908,6 +908,62 @@
         "metadata": "",
         "name": "oxygen_farm_1.glb",
         "userAdded": false
+      },
+      {
+        "file": "shipyard_strikes_back.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "shipyard_strikes_back.glb",
+        "userAdded": false
+      },
+      {
+        "file": "SpaceShip.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "SpaceShip.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Thruster.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Thruster.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ShipPart4.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ShipPart4.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ShipHull.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ShipHull.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ShipPart1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ShipPart1.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ShipPart2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ShipPart2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ShipPart3.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ShipPart3.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []

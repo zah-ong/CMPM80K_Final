@@ -33,8 +33,8 @@
       "name": "Camera",
       "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
       "width": 0,
-      "x": 366,
-      "y": 365,
+      "x": 471,
+      "y": 370,
       "z": 1,
       "zOrder": 2,
       "numberProperties": [],
@@ -51,8 +51,8 @@
       "name": "Planet1",
       "persistentUuid": "13a8d78b-21ed-4e5c-b73a-d0ee9c57c811",
       "width": 226,
-      "x": 835,
-      "y": 159,
+      "x": 960,
+      "y": 26,
       "z": -50,
       "zOrder": 6,
       "numberProperties": [],
@@ -60,18 +60,141 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
+      "angle": 270,
       "customSize": false,
+      "flippedY": true,
       "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "OxygenTank",
       "persistentUuid": "f5120072-852a-49f4-b602-7224f53d5951",
-      "rotationX": 270,
+      "rotationX": 90,
       "width": 0,
-      "x": 997,
-      "y": 333,
+      "x": 1128,
+      "y": 470,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 429,
+      "height": 142,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spaceship",
+      "persistentUuid": "a2c93508-fdfc-4108-a797-43652c0005e6",
+      "rotationX": 270,
+      "width": 210,
+      "x": 173,
+      "y": 402,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 94,
+      "height": 53,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Thruster",
+      "persistentUuid": "84cb5ae5-53be-4b7a-8888-d8dd35524570",
+      "rotationX": 270,
+      "width": 54,
+      "x": 942,
+      "y": 270,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 172,
+      "height": 60,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ShipPart4",
+      "persistentUuid": "530a276c-c182-4387-b505-2f032fa3930c",
+      "width": 30,
+      "x": 756,
+      "y": 287,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 209,
+      "customSize": true,
+      "depth": 67,
+      "height": 72,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ShipHull",
+      "persistentUuid": "1107b055-ab2d-4715-ac70-df0f30deb2b9",
+      "rotationX": 270,
+      "width": 60,
+      "x": 624,
+      "y": 115,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 215,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ShipPart1",
+      "persistentUuid": "6fdacd05-222e-445f-9b03-acca9e4ece00",
+      "rotationX": 90,
+      "width": 0,
+      "x": 896,
+      "y": 555,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 196,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ShipPart2",
+      "persistentUuid": "38b3b7b6-e4a4-473f-88ba-e494bfc6ae2a",
+      "rotationX": 90,
+      "width": 0,
+      "x": 855,
+      "y": 364,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 307,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ShipPart3",
+      "persistentUuid": "0844d940-5808-44e3-81cf-6e54fa0b27cf",
+      "rotationX": 90,
+      "width": 0,
+      "x": 792,
+      "y": 650,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1999,235 +2122,414 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Spaceship",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "SpaceShip.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Thruster",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Thruster.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShipPart4",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "ShipPart4.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShipHull",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "ShipHull.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShipPart1",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "ShipPart1.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShipPart2",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "ShipPart2.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "ShipPart3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "ShipPart3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Connector"
-      },
-      {
-        "objectName": "BaseLarge"
-      },
-      {
-        "objectName": "HouseDoor"
-      },
-      {
-        "objectName": "GeodesicDome"
-      },
-      {
-        "objectName": "BuildingL"
-      },
-      {
-        "objectName": "HouseCylinder"
-      },
-      {
-        "objectName": "HouseOpenBack"
-      },
-      {
-        "objectName": "HouseOpen"
-      },
-      {
-        "objectName": "HouseSingleSupport"
-      },
-      {
-        "objectName": "Ramp"
-      },
-      {
-        "objectName": "RoofVentL"
-      },
-      {
-        "objectName": "HouseLong"
-      },
-      {
-        "objectName": "HouseSingle"
-      },
-      {
-        "objectName": "RoofOpening"
-      },
-      {
-        "objectName": "Stairs"
-      },
-      {
-        "objectName": "MetalSupport"
-      },
-      {
-        "objectName": "Planet1"
-      },
-      {
-        "objectName": "Planet2"
-      },
-      {
-        "objectName": "Planet3"
-      },
-      {
-        "objectName": "Planet4"
-      },
-      {
-        "objectName": "Planet5"
-      },
-      {
-        "objectName": "Planet6"
-      },
-      {
-        "objectName": "Planet8"
-      },
-      {
-        "objectName": "Planet7"
-      },
-      {
-        "objectName": "Planet9"
-      },
-      {
-        "objectName": "Planet10"
-      },
-      {
-        "objectName": "Planet11"
-      },
-      {
-        "objectName": "RoofAntenna"
-      },
-      {
-        "objectName": "RoofRadar"
-      },
-      {
-        "objectName": "SolarPanelGround"
-      },
-      {
-        "objectName": "SolarPanelRoof"
-      },
-      {
-        "objectName": "SolarPanelStructure"
-      },
-      {
-        "objectName": "PickupCrate"
-      },
-      {
-        "objectName": "PickupBullets"
-      },
-      {
-        "objectName": "PickupThunder"
-      },
-      {
-        "objectName": "PickupJar"
-      },
-      {
-        "objectName": "PickupKeyCard"
-      },
-      {
-        "objectName": "PickupHealth"
-      },
-      {
-        "objectName": "PickupSphere"
-      },
-      {
-        "objectName": "Grass2"
-      },
-      {
-        "objectName": "Bush3"
-      },
-      {
-        "objectName": "Grass3"
-      },
-      {
-        "objectName": "Bush1"
-      },
-      {
-        "objectName": "Bush2"
-      },
-      {
-        "objectName": "Grass1"
-      },
-      {
-        "objectName": "TreeFloating1"
-      },
-      {
-        "objectName": "Plant2"
-      },
-      {
-        "objectName": "Plant1"
-      },
-      {
-        "objectName": "TreeBlob3"
-      },
-      {
-        "objectName": "Plant3"
-      },
-      {
-        "objectName": "TreeBlob1"
-      },
-      {
-        "objectName": "TreeLava1"
-      },
-      {
-        "objectName": "TreeBlob2"
-      },
-      {
-        "objectName": "TreeFloating2"
-      },
-      {
-        "objectName": "TreeLava3"
-      },
-      {
-        "objectName": "TreeFloating3"
-      },
-      {
-        "objectName": "TreeLava2"
-      },
-      {
-        "objectName": "TreeLight2"
-      },
-      {
-        "objectName": "TreeLight1"
-      },
-      {
-        "objectName": "TreeSpikes1"
-      },
-      {
-        "objectName": "TreeSpikes2"
-      },
-      {
-        "objectName": "TreeSpiral1"
-      },
-      {
-        "objectName": "TreeSpiral2"
-      },
-      {
-        "objectName": "TreeSpiral3"
-      },
-      {
-        "objectName": "TreeSwirl1"
-      },
-      {
-        "objectName": "TreeSwirl2"
-      },
-      {
-        "objectName": "RockLarge1"
-      },
-      {
-        "objectName": "Rock2"
-      },
-      {
-        "objectName": "Rock4"
-      },
-      {
-        "objectName": "Rock3"
-      },
-      {
-        "objectName": "Rock1"
-      },
-      {
-        "objectName": "RockLarge2"
-      },
-      {
-        "objectName": "RockLarge3"
-      },
-      {
-        "objectName": "AstronautRaeTheRedPanda"
-      },
-      {
-        "objectName": "Camera"
+        "folderName": "SpaceStation",
+        "children": [
+          {
+            "objectName": "SolarPanelStructure"
+          },
+          {
+            "objectName": "SolarPanelRoof"
+          },
+          {
+            "objectName": "SolarPanelGround"
+          },
+          {
+            "objectName": "RoofRadar"
+          },
+          {
+            "objectName": "RoofAntenna"
+          },
+          {
+            "objectName": "MetalSupport"
+          },
+          {
+            "objectName": "Stairs"
+          },
+          {
+            "objectName": "RoofOpening"
+          },
+          {
+            "objectName": "HouseSingle"
+          },
+          {
+            "objectName": "HouseLong"
+          },
+          {
+            "objectName": "RoofVentL"
+          },
+          {
+            "objectName": "Ramp"
+          },
+          {
+            "objectName": "HouseSingleSupport"
+          },
+          {
+            "objectName": "HouseOpen"
+          },
+          {
+            "objectName": "HouseOpenBack"
+          },
+          {
+            "objectName": "HouseCylinder"
+          },
+          {
+            "objectName": "BuildingL"
+          },
+          {
+            "objectName": "GeodesicDome"
+          },
+          {
+            "objectName": "HouseDoor"
+          },
+          {
+            "objectName": "BaseLarge"
+          },
+          {
+            "objectName": "Connector"
+          }
+        ]
+      },
+      {
+        "folderName": "Planets",
+        "children": [
+          {
+            "objectName": "Planet11"
+          },
+          {
+            "objectName": "Planet10"
+          },
+          {
+            "objectName": "Planet9"
+          },
+          {
+            "objectName": "Planet8"
+          },
+          {
+            "objectName": "Planet7"
+          },
+          {
+            "objectName": "Planet6"
+          },
+          {
+            "objectName": "Planet5"
+          },
+          {
+            "objectName": "Planet4"
+          },
+          {
+            "objectName": "Planet3"
+          },
+          {
+            "objectName": "Planet2"
+          },
+          {
+            "objectName": "Planet1"
+          }
+        ]
+      },
+      {
+        "folderName": "Miscellanious",
+        "children": [
+          {
+            "objectName": "PickupSphere"
+          },
+          {
+            "objectName": "PickupHealth"
+          },
+          {
+            "objectName": "PickupKeyCard"
+          },
+          {
+            "objectName": "PickupJar"
+          },
+          {
+            "objectName": "PickupThunder"
+          },
+          {
+            "objectName": "PickupBullets"
+          },
+          {
+            "objectName": "PickupCrate"
+          }
+        ]
+      },
+      {
+        "folderName": "SceneSetting",
+        "children": [
+          {
+            "objectName": "RockLarge3"
+          },
+          {
+            "objectName": "RockLarge2"
+          },
+          {
+            "objectName": "Rock1"
+          },
+          {
+            "objectName": "Rock3"
+          },
+          {
+            "objectName": "Rock4"
+          },
+          {
+            "objectName": "Rock2"
+          },
+          {
+            "objectName": "RockLarge1"
+          },
+          {
+            "objectName": "TreeSwirl2"
+          },
+          {
+            "objectName": "TreeSwirl1"
+          },
+          {
+            "objectName": "TreeSpiral3"
+          },
+          {
+            "objectName": "TreeSpiral2"
+          },
+          {
+            "objectName": "TreeSpiral1"
+          },
+          {
+            "objectName": "TreeSpikes2"
+          },
+          {
+            "objectName": "TreeSpikes1"
+          },
+          {
+            "objectName": "TreeLight1"
+          },
+          {
+            "objectName": "TreeLight2"
+          },
+          {
+            "objectName": "TreeLava2"
+          },
+          {
+            "objectName": "TreeFloating3"
+          },
+          {
+            "objectName": "TreeLava3"
+          },
+          {
+            "objectName": "TreeFloating2"
+          },
+          {
+            "objectName": "TreeBlob2"
+          },
+          {
+            "objectName": "TreeLava1"
+          },
+          {
+            "objectName": "TreeBlob1"
+          },
+          {
+            "objectName": "Plant3"
+          },
+          {
+            "objectName": "TreeBlob3"
+          },
+          {
+            "objectName": "Plant1"
+          },
+          {
+            "objectName": "Plant2"
+          },
+          {
+            "objectName": "TreeFloating1"
+          },
+          {
+            "objectName": "Grass1"
+          },
+          {
+            "objectName": "Bush2"
+          },
+          {
+            "objectName": "Bush1"
+          },
+          {
+            "objectName": "Grass3"
+          },
+          {
+            "objectName": "Bush3"
+          },
+          {
+            "objectName": "Grass2"
+          }
+        ]
+      },
+      {
+        "folderName": "PlayerStuff",
+        "children": [
+          {
+            "objectName": "Camera"
+          },
+          {
+            "objectName": "AstronautRaeTheRedPanda"
+          }
+        ]
       },
       {
         "objectName": "OxygenTank"
@@ -2243,6 +2545,32 @@
       },
       {
         "objectName": "FloorDetail"
+      },
+      {
+        "folderName": "ShipStuff",
+        "children": [
+          {
+            "objectName": "Spaceship"
+          },
+          {
+            "objectName": "ShipHull"
+          },
+          {
+            "objectName": "Thruster"
+          },
+          {
+            "objectName": "ShipPart1"
+          },
+          {
+            "objectName": "ShipPart2"
+          },
+          {
+            "objectName": "ShipPart3"
+          },
+          {
+            "objectName": "ShipPart4"
+          }
+        ]
       }
     ]
   },
