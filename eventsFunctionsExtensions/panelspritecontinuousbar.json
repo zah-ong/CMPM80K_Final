@@ -2462,6 +2462,7 @@
             "text": "2 / 3",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 20,
             "color": "0;0;0"
           }

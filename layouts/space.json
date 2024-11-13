@@ -34,8 +34,8 @@
       "name": "Camera",
       "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
       "width": 65,
-      "x": 471,
-      "y": 413,
+      "x": 414,
+      "y": 418,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -122,9 +122,10 @@
       "layer": "",
       "name": "ShipPart4",
       "persistentUuid": "530a276c-c182-4387-b505-2f032fa3930c",
+      "rotationX": 270,
       "width": 30,
-      "x": 494,
-      "y": 672,
+      "x": 499,
+      "y": 645,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -292,7 +293,7 @@
       "name": "Inventory_Outline",
       "persistentUuid": "05cffc87-d74e-4b37-8e37-3ccabbd3df40",
       "width": 834,
-      "x": 282,
+      "x": 281,
       "y": 8,
       "zOrder": 0,
       "numberProperties": [],
@@ -310,8 +311,8 @@
       "persistentUuid": "433f353e-2723-455a-8013-578c86196f45",
       "rotationY": 180,
       "width": 97,
-      "x": 381,
-      "y": 156,
+      "x": 640,
+      "y": 160,
       "z": 5,
       "zOrder": 22,
       "numberProperties": [],
@@ -329,8 +330,8 @@
       "persistentUuid": "40234a17-45de-4284-9250-fcdc9d3aa9a2",
       "rotationX": 90,
       "width": 75,
-      "x": 530,
-      "y": 159,
+      "x": 779,
+      "y": 96,
       "z": 5,
       "zOrder": 23,
       "numberProperties": [],
@@ -338,7 +339,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 90,
       "customSize": true,
       "depth": 160,
       "height": 69,
@@ -348,8 +349,8 @@
       "persistentUuid": "dd2b03bf-eaf6-4ca0-8273-d0dfbb99c750",
       "rotationX": 90,
       "width": 53,
-      "x": 638,
-      "y": 151,
+      "x": 787,
+      "y": 201,
       "z": 5,
       "zOrder": 24,
       "numberProperties": [],
@@ -359,16 +360,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 171,
-      "height": 84,
+      "depth": 158,
+      "height": 77,
       "keepRatio": true,
       "layer": "UI",
       "name": "ShipPart2Inv",
       "persistentUuid": "4149e83f-7b80-41d4-9569-3b497740fef8",
       "rotationX": 270,
-      "width": 130,
-      "x": 765,
-      "y": 154,
+      "width": 120,
+      "x": 889,
+      "y": 117,
       "z": 5,
       "zOrder": 25,
       "numberProperties": [],
@@ -386,8 +387,8 @@
       "persistentUuid": "4c622c6a-1998-46bc-91c9-58f81f909551",
       "rotationX": 270,
       "width": 78,
-      "x": 925,
-      "y": 129,
+      "x": 1019,
+      "y": 108,
       "z": 5,
       "zOrder": 26,
       "numberProperties": [],
@@ -395,7 +396,7 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 89,
       "customSize": true,
       "depth": 192,
       "height": 66,
@@ -405,8 +406,8 @@
       "persistentUuid": "454b90ce-206f-49c9-b6bc-f519b4714a63",
       "rotationX": 270,
       "width": 33,
-      "x": 1031,
-      "y": 128,
+      "x": 987,
+      "y": 209,
       "z": 5,
       "zOrder": 27,
       "numberProperties": [],
@@ -533,15 +534,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 222,
-      "height": 222,
+      "depth": 144,
+      "height": 144,
       "keepRatio": true,
       "layer": "UI",
       "name": "ShipPart2Int",
       "persistentUuid": "800df87f-9daf-4951-b811-a80bca7ae198",
-      "width": 222,
-      "x": 581,
-      "y": 204,
+      "width": 144,
+      "x": 619,
+      "y": 242,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -567,15 +568,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 100,
-      "height": 123,
+      "depth": 122,
+      "height": 150,
       "keepRatio": true,
       "layer": "UI",
       "name": "ShipPart4Int",
       "persistentUuid": "65206e70-6c20-4865-8d27-a0c216fc9ed9",
-      "width": 135,
-      "x": 436,
-      "y": 578,
+      "width": 165,
+      "x": 434,
+      "y": 559,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -593,6 +594,56 @@
       "x": 498,
       "y": 16,
       "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 100,
+      "height": 382,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "RepairShip",
+      "persistentUuid": "af8535c1-3c88-4ce5-98c9-dd1228102428",
+      "width": 157,
+      "x": 154,
+      "y": 298,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "L",
+      "persistentUuid": "f0aef013-8aa4-4536-b582-d4f65e8c63b1",
+      "width": 191,
+      "x": 14,
+      "y": 237,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "GameMechanics",
+      "persistentUuid": "0ca52715-584f-4949-87a5-48f6d2b46d71",
+      "width": 0,
+      "x": 298,
+      "y": 93,
+      "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2316,6 +2367,36 @@
           "name": "Health",
           "type": "number",
           "value": 5
+        },
+        {
+          "name": "HasShipHull",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasThruster",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart1",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart2",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart3",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart4",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -2762,6 +2843,7 @@
             "text": "100 / 100",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -2835,6 +2917,7 @@
             "text": "Health",
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "255;255;255"
           }
@@ -2930,6 +3013,7 @@
             "text": "5 / 5",
             "font": "",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -3003,6 +3087,7 @@
             "text": "Oxygen",
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "255;255;255"
           }
@@ -3086,6 +3171,7 @@
             "text": "",
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "255;255;255"
           }
@@ -3301,6 +3387,7 @@
             "text": "Inventory",
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "255;255;255"
           }
@@ -3354,6 +3441,7 @@
         "text": "Empty",
         "font": "mononoki-Regular.ttf",
         "textAlignment": "left",
+        "verticalTextAlignment": "top",
         "characterSize": 100,
         "color": "255;255;255"
       }
@@ -3425,6 +3513,7 @@
             "text": "Press Q",
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "255;255;255"
           }
@@ -3718,6 +3807,7 @@
             "text": "Press P",
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
+            "verticalTextAlignment": "top",
             "characterSize": 26,
             "color": "255;255;255"
           }
@@ -3732,6 +3822,167 @@
           "topMargin": 22,
           "width": 192
         }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "RepairShip",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "L",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Press L",
+          "font": "mononoki-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 26,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press L",
+            "font": "mononoki-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GameMechanics",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Game Mechanics:\nP - pickup\nQ - get oxygen\nL - repair ship\nleft click - camera lock\nescape - unlock camera",
+      "font": "mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Game Mechanics:\nP - pickup\nQ - get oxygen\nL - repair ship\nleft click - camera lock\nescape - unlock camera",
+        "font": "mononoki-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "255;255;255"
       }
     }
   ],
@@ -4065,6 +4316,9 @@
             "objectName": "P"
           },
           {
+            "objectName": "L"
+          },
+          {
             "objectName": "Health"
           },
           {
@@ -4092,6 +4346,9 @@
           },
           {
             "objectName": "ShipPart4Int"
+          },
+          {
+            "objectName": "RepairShip"
           }
         ]
       },
@@ -4100,6 +4357,9 @@
       },
       {
         "objectName": "FloorDetail"
+      },
+      {
+        "objectName": "GameMechanics"
       }
     ]
   },
@@ -4270,6 +4530,22 @@
           "parameters": [
             "P"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "RepairShip"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "L"
+          ]
         }
       ]
     },
@@ -4389,6 +4665,35 @@
             "ShipHullInv",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipHull",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipHull",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipHullInt",
+            ""
+          ]
         }
       ]
     },
@@ -4493,6 +4798,35 @@
           },
           "parameters": [
             "ThrusterInv",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasThruster",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Thruster",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ThrusterInt",
             ""
           ]
         }
@@ -4601,6 +4935,35 @@
             "ShipPart1Inv",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart1",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart1Int",
+            ""
+          ]
         }
       ]
     },
@@ -4705,6 +5068,35 @@
           },
           "parameters": [
             "ShipPart2Inv",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart2",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart2Int",
             ""
           ]
         }
@@ -4813,6 +5205,35 @@
             "ShipPart3Inv",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart3",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart3Int",
+            ""
+          ]
         }
       ]
     },
@@ -4919,6 +5340,35 @@
             "ShipPart4Inv",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart4",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart4",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ShipPart4Int",
+            ""
+          ]
         }
       ]
     },
@@ -4926,6 +5376,247 @@
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Camera",
+            "RepairShip",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "L",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Camera",
+            "RepairShip",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "L"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Camera",
+            "RepairShip",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "l"
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipHull",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShipHullInv"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasThruster",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ThrusterInv"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart1",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShipPart1Inv"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart2",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShipPart2Inv"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart3",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShipPart3Inv"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart4",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "ShipPart4Inv"
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,

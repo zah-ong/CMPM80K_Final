@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 213,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "CMPM80K_Final",
+    "name": "CMPM80K_Final, Space Escape",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -53,7 +53,9 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "keyboard"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
