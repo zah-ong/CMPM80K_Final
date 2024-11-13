@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5843784410740952,
+    "zoomFactor": 0.5468750000000023,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,16 +26,16 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 65,
+      "height": 65,
       "keepRatio": true,
       "layer": "",
       "name": "Camera",
       "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
-      "width": 0,
+      "width": 65,
       "x": 471,
-      "y": 370,
-      "z": 1,
+      "y": 413,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -70,8 +70,8 @@
       "persistentUuid": "f5120072-852a-49f4-b602-7224f53d5951",
       "rotationX": 90,
       "width": 0,
-      "x": 1128,
-      "y": 470,
+      "x": 1181,
+      "y": 471,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -195,6 +195,56 @@
       "x": 792,
       "y": 650,
       "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlueFlatBar",
+      "persistentUuid": "e89ea88e-26c9-47f0-9ea6-2c969d44b4b3",
+      "width": 0,
+      "x": 16,
+      "y": 72,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 40,
+      "height": 54,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BlackSquareDecoratedButton",
+      "persistentUuid": "3b198f6e-63f9-4d7e-8f68-db8fc356f0d4",
+      "width": 161,
+      "x": 15,
+      "y": 9,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 77,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "GetOxygen",
+      "persistentUuid": "1ad92203-8a7f-4af4-a949-7ad3f085c2b4",
+      "width": 77,
+      "x": 1050,
+      "y": 393,
+      "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1907,7 +1957,13 @@
       "assetStoreId": "",
       "name": "Camera",
       "type": "Scene3D::Cube3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "Oxygen",
+          "type": "number",
+          "value": 100
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -2276,6 +2332,211 @@
         "width": 100,
         "animations": []
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "GetOxygen",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "0a398f1656e34f64758c909a71ca17cd69fd41bd251d89ff5a640303c4279f50",
+      "name": "BlueFlatBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": true,
+        "BarTopPadding": 4,
+        "BarBottomPadding": 6,
+        "BarLeftPadding": 4,
+        "BarRightPadding": 4,
+        "MaxValue": 100,
+        "InitialValue": 100
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 34,
+          "leftMargin": 4,
+          "rightMargin": 4,
+          "texture": "Flat Bar White Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 224
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 24,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Flat Bar Blue Fill Bar.png",
+          "tiled": true,
+          "topMargin": 0,
+          "width": 24
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "100 / 100",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 16,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "100 / 100",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 16,
+            "color": "255;255;255"
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "BlackSquareDecoratedButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Oxygen",
+          "font": "mononoki-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 26,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Oxygen",
+            "font": "mononoki-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 26,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2571,6 +2832,15 @@
             "objectName": "ShipPart4"
           }
         ]
+      },
+      {
+        "objectName": "GetOxygen"
+      },
+      {
+        "objectName": "BlueFlatBar"
+      },
+      {
+        "objectName": "BlackSquareDecoratedButton"
       }
     ]
   },
@@ -2585,6 +2855,23 @@
           },
           "parameters": [
             "Camera"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GetOxygen"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Camera",
+            "\"OxygenDrop\""
           ]
         }
       ]
@@ -2650,6 +2937,60 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "Camera",
+            "\"OxygenDrop\"",
+            ">=",
+            "3"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "Player",
+            "Hunger",
+            "-",
+            "clamp(1,0,10)"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "WoodGreenBar",
+            "=",
+            "Player.Variable(Hunger)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Player",
+            "\"HungerDrop\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "colorB": 228,

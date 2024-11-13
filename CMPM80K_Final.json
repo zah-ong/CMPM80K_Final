@@ -964,6 +964,82 @@
         "metadata": "",
         "name": "ShipPart3.glb",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar Blue Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar Blue Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/f270f84b907c4d653ca7fad99ab890b31642bdbc0b22a189ff45be51240cf52b_Flat Bar Blue Fill Bar.png",
+          "name": "Flat Bar Blue Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Flat Bar White Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Flat Bar White Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/c090d31cafed0c8ef7bb4d5af75a7dbf7149bcc03a7d5d63ae997d59100e362e_Flat Bar White Border.png",
+          "name": "Flat Bar White Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f412f1600c8331cf72f89d4bd00ce33a91d18553dea6d91ae71966a24c659e9a_Black Square Decorated Button_Hovered.png",
+          "name": "Black Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/a33bd108a01f89ef1fe8d695b6b060e19ec466e4fce2d728ed93fb2b96ebd768_Black Square Decorated Button_Idle.png",
+          "name": "Black Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c772df82fc56543546eea5576b02f73253eaf5683120a331581f0b85664f62af_Black Square Decorated Button_Pressed.png",
+          "name": "Black Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "mononoki-Regular.ttf"
+        }
       }
     ],
     "resourceFolders": []
@@ -982,6 +1058,14 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/withthreejs"
