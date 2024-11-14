@@ -5796,6 +5796,34 @@
       "conditions": [
         {
           "type": {
+            "value": "Health::Health::Health"
+          },
+          "parameters": [
+            "Camera",
+            "Health",
+            "=",
+            "0",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Camera",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "CollisionNP"
           },
           "parameters": [
