@@ -18,47 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6672773998330002,
+    "zoomFactor": 0.04546306919155625,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 65,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Camera",
-      "persistentUuid": "b8e5edf9-f596-4cf8-be05-fba2b4d0cd27",
-      "width": 65,
-      "x": 414,
-      "y": 418,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 226,
-      "height": 226,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Planet1",
-      "persistentUuid": "13a8d78b-21ed-4e5c-b73a-d0ee9c57c811",
-      "width": 226,
-      "x": 1391,
-      "y": 339,
-      "z": -50,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 270,
       "customSize": false,
@@ -72,6 +37,7 @@
       "width": 0,
       "x": 1233,
       "y": 471,
+      "z": -95,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -80,16 +46,17 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 429,
-      "height": 142,
+      "depth": 3181,
+      "height": 1304,
       "keepRatio": true,
       "layer": "",
       "name": "Spaceship",
       "persistentUuid": "a2c93508-fdfc-4108-a797-43652c0005e6",
       "rotationX": 270,
-      "width": 210,
-      "x": 184,
-      "y": 453,
+      "width": 2098,
+      "x": -1816,
+      "y": 24,
+      "z": -70,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -108,6 +75,7 @@
       "width": 54,
       "x": 848,
       "y": 439,
+      "z": -80,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -126,6 +94,7 @@
       "width": 30,
       "x": 499,
       "y": 645,
+      "z": -95,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -141,8 +110,9 @@
       "persistentUuid": "6fdacd05-222e-445f-9b03-acca9e4ece00",
       "rotationX": 90,
       "width": 0,
-      "x": 1004,
-      "y": 315,
+      "x": 1070,
+      "y": 598,
+      "z": -80,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -158,8 +128,9 @@
       "persistentUuid": "38b3b7b6-e4a4-473f-88ba-e494bfc6ae2a",
       "rotationX": 270,
       "width": 0,
-      "x": 692,
-      "y": 304,
+      "x": 701,
+      "y": 416,
+      "z": -80,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -177,6 +148,7 @@
       "width": 0,
       "x": 701,
       "y": 641,
+      "z": -80,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,7 +165,8 @@
       "width": 0,
       "x": 14,
       "y": 190,
-      "zOrder": 16,
+      "z": -80,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -210,7 +183,8 @@
       "width": 161,
       "x": 14,
       "y": 9,
-      "zOrder": 17,
+      "z": -80,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -227,6 +201,7 @@
       "width": 77,
       "x": 1102,
       "y": 393,
+      "z": -95,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -244,7 +219,8 @@
       "width": 179,
       "x": 14,
       "y": 118,
-      "zOrder": 19,
+      "z": -80,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -260,7 +236,8 @@
       "width": 0,
       "x": 14,
       "y": 71,
-      "zOrder": 20,
+      "z": -80,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -275,8 +252,9 @@
       "name": "Inventory_Outline",
       "persistentUuid": "05cffc87-d74e-4b37-8e37-3ccabbd3df40",
       "width": 834,
-      "x": 291,
-      "y": 3,
+      "x": 293,
+      "y": -1,
+      "z": -80,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,8 +273,7 @@
       "width": 97,
       "x": 650,
       "y": 155,
-      "z": 5,
-      "zOrder": 22,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -314,8 +291,7 @@
       "width": 75,
       "x": 789,
       "y": 91,
-      "z": 5,
-      "zOrder": 23,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -333,8 +309,7 @@
       "width": 53,
       "x": 797,
       "y": 196,
-      "z": 5,
-      "zOrder": 24,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -352,8 +327,7 @@
       "width": 120,
       "x": 899,
       "y": 112,
-      "z": 5,
-      "zOrder": 25,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -371,8 +345,7 @@
       "width": 78,
       "x": 1029,
       "y": 103,
-      "z": 5,
-      "zOrder": 26,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -390,8 +363,7 @@
       "width": 33,
       "x": 997,
       "y": 204,
-      "z": 5,
-      "zOrder": 27,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -407,7 +379,7 @@
       "width": 0,
       "x": 309,
       "y": 9,
-      "zOrder": 28,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -424,7 +396,7 @@
       "width": 342,
       "x": 631,
       "y": 73,
-      "zOrder": 29,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -440,6 +412,7 @@
       "width": 0,
       "x": 14,
       "y": 236,
+      "z": -80,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -457,6 +430,7 @@
       "width": 0,
       "x": 906,
       "y": 626,
+      "z": -80,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -474,6 +448,7 @@
       "width": 125,
       "x": 788,
       "y": 381,
+      "z": -80,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -491,6 +466,7 @@
       "width": 117,
       "x": 842,
       "y": 559,
+      "z": -80,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -506,8 +482,9 @@
       "name": "ShipPart1Int",
       "persistentUuid": "92699f69-e8ed-4b0d-a7e3-3a5431b8aa8e",
       "width": 123,
-      "x": 947,
-      "y": 260,
+      "x": 1013,
+      "y": 543,
+      "z": -80,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -523,8 +500,9 @@
       "name": "ShipPart2Int",
       "persistentUuid": "800df87f-9daf-4951-b811-a80bca7ae198",
       "width": 144,
-      "x": 619,
-      "y": 242,
+      "x": 626,
+      "y": 330,
+      "z": -80,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -542,6 +520,7 @@
       "width": 118,
       "x": 644,
       "y": 570,
+      "z": -80,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -559,6 +538,7 @@
       "width": 165,
       "x": 434,
       "y": 559,
+      "z": -95,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -575,7 +555,7 @@
       "width": 0,
       "x": 508,
       "y": 11,
-      "zOrder": 38,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -583,15 +563,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 100,
-      "height": 382,
+      "depth": 636,
+      "height": 3010,
       "keepRatio": true,
       "layer": "UI",
       "name": "RepairShip",
       "persistentUuid": "af8535c1-3c88-4ce5-98c9-dd1228102428",
-      "width": 157,
-      "x": 154,
-      "y": 298,
+      "width": 1345,
+      "x": -1720,
+      "y": -1175,
+      "z": -80,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -609,6 +590,7 @@
       "width": 191,
       "x": 14,
       "y": 237,
+      "z": -80,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -625,7 +607,42 @@
       "width": 0,
       "x": 308,
       "y": 88,
-      "zOrder": 41,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Camera",
+      "persistentUuid": "fcaed271-55f8-4192-b99e-f32d69f8feac",
+      "width": 0,
+      "x": 438,
+      "y": 406,
+      "z": -80,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 10,
+      "height": 11331,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ground",
+      "persistentUuid": "a1111091-72ed-4eac-a484-6ad03eff51b9",
+      "width": 17876,
+      "x": -6707,
+      "y": -5873,
+      "z": -100,
+      "zOrder": 202,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3966,6 +3983,624 @@
         "characterSize": 20,
         "color": "255;255;255"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Light",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "lightBehaviour",
+          "type": "BabylonGD::lightBehaviour",
+          "Property": "HemisphericLight",
+          "intensity": 3,
+          "position": "[0,1,0]"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Terrain",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "terrainBehaviour",
+          "type": "BabylonGD::terrainBehaviour",
+          "subdivisions": 50,
+          "minHeight": 0,
+          "maxHeight": 10
+        }
+      ],
+      "animations": [
+        {
+          "name": "HEIGHTMAP",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "heightmap.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MIXMAP",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "mixmap.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "heightmap2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GROUND",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lunarrock_d.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MIDDLE",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "stone-1024.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HIGH",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "snow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GROUND_N",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lunarrock_d2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MIDDLE_N",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lunarrock_d3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HIGH_N",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "lunarrock_d4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 0
+                      },
+                      {
+                        "x": 1000,
+                        "y": 1000
+                      },
+                      {
+                        "x": 0,
+                        "y": 1000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Camera_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "cameraBehaviour",
+          "type": "BabylonGD::cameraBehaviour",
+          "hide": true,
+          "checkCollisions": true,
+          "applyGravity": true,
+          "cameraType": "UniversalCamera",
+          "keysUp": 87,
+          "keysDown": 83,
+          "keysRight": 68,
+          "keysLeft": 65
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Ground",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "lunarrock_d5.png",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "StandardWithoutMetalness"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4342,6 +4977,18 @@
       },
       {
         "objectName": "GameMechanics"
+      },
+      {
+        "objectName": "Light"
+      },
+      {
+        "objectName": "Camera_1"
+      },
+      {
+        "objectName": "Terrain"
+      },
+      {
+        "objectName": "Ground"
       }
     ]
   },
@@ -4527,6 +5174,92 @@
           },
           "parameters": [
             "L"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "Spaceship",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "ShipHull",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "Thruster",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "ShipPart1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "ShipPart2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "ShipPart3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "ShipPart4",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Camera",
+            "OxygenTank",
+            ""
           ]
         }
       ]
@@ -6298,6 +7031,18 @@
       "type": "Walk3D::Walk3D",
       "Cos": 0,
       "Sin": 0
+    },
+    {
+      "name": "cameraBehaviour",
+      "type": "BabylonGD::cameraBehaviour"
+    },
+    {
+      "name": "lightBehaviour",
+      "type": "BabylonGD::lightBehaviour"
+    },
+    {
+      "name": "terrainBehaviour",
+      "type": "BabylonGD::terrainBehaviour"
     }
   ]
 }

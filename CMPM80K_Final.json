@@ -1065,6 +1065,121 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "file": "stroming_sun.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "stroming_sun.glb",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "heightmap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heightmap.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "heightmap2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "heightmap2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lunarrock_d.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lunarrock_d.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "stone-1024.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "stone-1024.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "snow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "snow.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lunarrock_d2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lunarrock_d2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lunarrock_d3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lunarrock_d3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lunarrock_d4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lunarrock_d4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "mixmap.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mixmap.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "lunarrock_d5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "lunarrock_d5.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1083,6 +1198,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/babylongd"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/health"
