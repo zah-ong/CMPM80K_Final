@@ -18,10 +18,40 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.04546306919155625,
+    "zoomFactor": 0.03373115662024625,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "PlatformGroup",
+      "objects": [
+        {
+          "name": "Ground"
+        },
+        {
+          "name": "Thruster"
+        },
+        {
+          "name": "Spaceship"
+        },
+        {
+          "name": "ShipHull"
+        },
+        {
+          "name": "ShipPart1"
+        },
+        {
+          "name": "ShipPart2"
+        },
+        {
+          "name": "ShipPart3"
+        },
+        {
+          "name": "ShipPart4"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -37,7 +67,6 @@
       "width": 0,
       "x": 1233,
       "y": 471,
-      "z": -95,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -56,7 +85,6 @@
       "width": 2098,
       "x": -1816,
       "y": 24,
-      "z": -70,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -75,7 +103,6 @@
       "width": 54,
       "x": 848,
       "y": 439,
-      "z": -80,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -94,7 +121,6 @@
       "width": 30,
       "x": 499,
       "y": 645,
-      "z": -95,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -112,7 +138,6 @@
       "width": 0,
       "x": 1070,
       "y": 598,
-      "z": -80,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -130,7 +155,6 @@
       "width": 0,
       "x": 701,
       "y": 416,
-      "z": -80,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,7 +172,6 @@
       "width": 0,
       "x": 701,
       "y": 641,
-      "z": -80,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -165,7 +188,6 @@
       "width": 0,
       "x": 14,
       "y": 190,
-      "z": -80,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -183,7 +205,6 @@
       "width": 161,
       "x": 14,
       "y": 9,
-      "z": -80,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -201,7 +222,6 @@
       "width": 77,
       "x": 1102,
       "y": 393,
-      "z": -95,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -219,7 +239,6 @@
       "width": 179,
       "x": 14,
       "y": 118,
-      "z": -80,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -236,7 +255,6 @@
       "width": 0,
       "x": 14,
       "y": 71,
-      "z": -80,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -254,7 +272,6 @@
       "width": 834,
       "x": 293,
       "y": -1,
-      "z": -80,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -412,7 +429,6 @@
       "width": 0,
       "x": 14,
       "y": 236,
-      "z": -80,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -430,7 +446,6 @@
       "width": 0,
       "x": 906,
       "y": 626,
-      "z": -80,
       "zOrder": 31,
       "numberProperties": [],
       "stringProperties": [],
@@ -448,7 +463,6 @@
       "width": 125,
       "x": 788,
       "y": 381,
-      "z": -80,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -466,7 +480,6 @@
       "width": 117,
       "x": 842,
       "y": 559,
-      "z": -80,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -484,7 +497,6 @@
       "width": 123,
       "x": 1013,
       "y": 543,
-      "z": -80,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -502,7 +514,6 @@
       "width": 144,
       "x": 626,
       "y": 330,
-      "z": -80,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -520,7 +531,6 @@
       "width": 118,
       "x": 644,
       "y": 570,
-      "z": -80,
       "zOrder": 36,
       "numberProperties": [],
       "stringProperties": [],
@@ -538,7 +548,6 @@
       "width": 165,
       "x": 434,
       "y": 559,
-      "z": -95,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -572,7 +581,6 @@
       "width": 1345,
       "x": -1720,
       "y": -1175,
-      "z": -80,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -590,7 +598,6 @@
       "width": 191,
       "x": 14,
       "y": 237,
-      "z": -80,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -623,7 +630,6 @@
       "width": 0,
       "x": 438,
       "y": 406,
-      "z": -80,
       "zOrder": 201,
       "numberProperties": [],
       "stringProperties": [],
@@ -2511,48 +2517,6 @@
       }
     },
     {
-      "assetStoreId": "280e95e029ea45a4229da43956e17f9887eb6cbad5c3362c6ca8697451a5cd92",
-      "name": "FloorDetail",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Jump3D",
-          "type": "Jump3D::Jump3D",
-          "Object3D": "Object3D",
-          "JumpHeight": 150,
-          "MaxFallingSpeed": 700,
-          "Gravity": 1000,
-          "JumpSpeed": 600,
-          "JumpSustainDurationMax": 0.2,
-          "State": "Idle",
-          "CurrentJumpSpeed": 0.19999992847454,
-          "CurrentFallSpeed": 0.19999992847454,
-          "PreviousJumpSpeed": 0.19999992847454,
-          "PreviousFallSpeed": 0.19999992847454,
-          "HasPressedJumpKey": false,
-          "CanJump": true,
-          "ShouldStopAtZero": true,
-          "PreviousState": "Idle"
-        }
-      ],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 30,
-        "height": 30,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "floor-detail.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 90,
-        "rotationY": 0,
-        "rotationZ": -90,
-        "width": 30,
-        "animations": []
-      }
-    },
-    {
       "assetStoreId": "",
       "name": "OxygenTank",
       "type": "Scene3D::Model3DObject",
@@ -3985,589 +3949,6 @@
       }
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Light",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "lightBehaviour",
-          "type": "BabylonGD::lightBehaviour",
-          "Property": "HemisphericLight",
-          "intensity": 3,
-          "position": "[0,1,0]"
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Terrain",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "terrainBehaviour",
-          "type": "BabylonGD::terrainBehaviour",
-          "subdivisions": 50,
-          "minHeight": 0,
-          "maxHeight": 10
-        }
-      ],
-      "animations": [
-        {
-          "name": "HEIGHTMAP",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "heightmap.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "MIXMAP",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "mixmap.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "heightmap2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "GROUND",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "lunarrock_d.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "MIDDLE",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "stone-1024.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "HIGH",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "snow.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "GROUND_N",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "lunarrock_d2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "MIDDLE_N",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "lunarrock_d3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "HIGH_N",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "lunarrock_d4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 0
-                      },
-                      {
-                        "x": 1000,
-                        "y": 1000
-                      },
-                      {
-                        "x": 0,
-                        "y": 1000
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Camera_1",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "cameraBehaviour",
-          "type": "BabylonGD::cameraBehaviour",
-          "hide": true,
-          "checkCollisions": true,
-          "applyGravity": true,
-          "cameraType": "UniversalCamera",
-          "keysUp": 87,
-          "keysDown": 83,
-          "keysRight": 68,
-          "keysLeft": 65
-        }
-      ],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "name": "Ground",
       "type": "Scene3D::Cube3DObject",
@@ -4860,6 +4241,9 @@
         "folderName": "ShipStuff",
         "children": [
           {
+            "objectName": "Spaceship"
+          },
+          {
             "objectName": "ShipHull"
           },
           {
@@ -4893,6 +4277,9 @@
       {
         "folderName": "UI",
         "children": [
+          {
+            "objectName": "GameMechanics"
+          },
           {
             "objectName": "ShipPart4Inv"
           },
@@ -4968,24 +4355,6 @@
             "objectName": "RepairShip"
           }
         ]
-      },
-      {
-        "objectName": "Spaceship"
-      },
-      {
-        "objectName": "FloorDetail"
-      },
-      {
-        "objectName": "GameMechanics"
-      },
-      {
-        "objectName": "Light"
-      },
-      {
-        "objectName": "Camera_1"
-      },
-      {
-        "objectName": "Terrain"
       },
       {
         "objectName": "Ground"
@@ -5260,6 +4629,63 @@
             "Camera",
             "OxygenTank",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Camera",
+            "PlatformGroup",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "PlatformGroup",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Scene3D::Base3DBehavior::Z"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "Object3D",
+                    "<",
+                    "PlatformGroup.Object3D::Z() + PlatformGroup.Object3D::Depth()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene3D::Base3DBehavior::SetZ"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "Object3D",
+                    "=",
+                    "PlatformGroup.Object3D::Z() + PlatformGroup.Object3D::Depth()"
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
