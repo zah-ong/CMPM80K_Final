@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.11894533708001187,
+    "zoomFactor": 0.20150678490768972,
     "windowMask": false
   },
   "objectsGroups": [
@@ -27,6 +27,57 @@
       "objects": [
         {
           "name": "Ground"
+        },
+        {
+          "name": "Platform"
+        },
+        {
+          "name": "Platform2"
+        },
+        {
+          "name": "Platform3"
+        },
+        {
+          "name": "Platform4"
+        },
+        {
+          "name": "Platform5"
+        },
+        {
+          "name": "Platform6"
+        },
+        {
+          "name": "Platform7"
+        },
+        {
+          "name": "InvisibleWall"
+        },
+        {
+          "name": "InvisibleWall2"
+        },
+        {
+          "name": "Platform8"
+        },
+        {
+          "name": "Platform9"
+        },
+        {
+          "name": "Platform10"
+        },
+        {
+          "name": "Platform11"
+        },
+        {
+          "name": "Platform12"
+        },
+        {
+          "name": "Platform13"
+        },
+        {
+          "name": "Platform14"
+        },
+        {
+          "name": "Platform15"
         }
       ]
     }
@@ -34,18 +85,20 @@
   "variables": [],
   "instances": [
     {
-      "angle": 270,
-      "customSize": false,
+      "angle": 180,
+      "customSize": true,
+      "depth": 151,
       "flippedY": true,
-      "height": 0,
+      "height": 197,
       "keepRatio": true,
       "layer": "",
       "name": "OxygenTank",
       "persistentUuid": "f5120072-852a-49f4-b602-7224f53d5951",
       "rotationX": 90,
-      "width": 0,
-      "x": 1233,
-      "y": 471,
+      "width": 146,
+      "x": 1085,
+      "y": -972,
+      "z": -65,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -98,8 +151,9 @@
       "persistentUuid": "530a276c-c182-4387-b505-2f032fa3930c",
       "rotationX": 270,
       "width": 30,
-      "x": 499,
-      "y": 645,
+      "x": 552,
+      "y": 4163,
+      "z": 170,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -115,8 +169,9 @@
       "persistentUuid": "6fdacd05-222e-445f-9b03-acca9e4ece00",
       "rotationX": 90,
       "width": 0,
-      "x": 1070,
-      "y": 598,
+      "x": 1600,
+      "y": 1709,
+      "z": 960,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
@@ -192,15 +247,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 77,
-      "height": 77,
+      "depth": 211,
+      "height": 211,
       "keepRatio": true,
       "layer": "UI",
       "name": "GetOxygen",
       "persistentUuid": "1ad92203-8a7f-4af4-a949-7ad3f085c2b4",
-      "width": 77,
-      "x": 1102,
-      "y": 393,
+      "width": 211,
+      "x": 934,
+      "y": -913,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -467,15 +522,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 123,
-      "height": 123,
+      "depth": 156,
+      "height": 156,
       "keepRatio": true,
       "layer": "UI",
       "name": "ShipPart1Int",
       "persistentUuid": "92699f69-e8ed-4b0d-a7e3-3a5431b8aa8e",
-      "width": 123,
-      "x": 1013,
-      "y": 543,
+      "width": 156,
+      "x": 1510,
+      "y": 1642,
+      "z": 960,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -518,15 +574,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 122,
-      "height": 150,
+      "depth": 166,
+      "height": 205,
       "keepRatio": true,
       "layer": "UI",
       "name": "ShipPart4Int",
       "persistentUuid": "65206e70-6c20-4865-8d27-a0c216fc9ed9",
-      "width": 165,
-      "x": 434,
-      "y": 559,
+      "width": 225,
+      "x": 462,
+      "y": 4060,
+      "z": 160,
       "zOrder": 37,
       "numberProperties": [],
       "stringProperties": [],
@@ -618,14 +675,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 10,
-      "height": 11331,
-      "keepRatio": true,
+      "height": 66424,
       "layer": "",
       "name": "Ground",
       "persistentUuid": "a1111091-72ed-4eac-a484-6ad03eff51b9",
-      "width": 17876,
-      "x": -5741,
-      "y": -2114,
+      "width": 104792,
+      "x": -44795,
+      "y": -36315,
       "z": -100,
       "zOrder": 202,
       "numberProperties": [],
@@ -635,23 +691,22 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 506,
-      "height": 506,
-      "keepRatio": true,
+      "depth": 150,
+      "height": 95,
       "layer": "",
       "name": "Platform",
       "persistentUuid": "4a654ce7-9b16-4b77-aeda-78ec418a472b",
-      "width": 506,
-      "x": 940,
-      "y": 856,
-      "z": -70,
+      "width": 95,
+      "x": 956,
+      "y": 1173,
+      "z": -90,
       "zOrder": 203,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 180,
+      "angle": 90,
       "customSize": true,
       "depth": 138,
       "height": 588,
@@ -660,28 +715,80 @@
       "name": "Stairs",
       "persistentUuid": "3866d0a4-f169-4b7f-97e8-126f5665fb12",
       "width": 1347,
-      "x": 3047,
-      "y": 569,
-      "z": -50,
-      "zOrder": 204,
+      "x": 1022,
+      "y": -914,
+      "z": -180,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 180,
+      "angle": 90,
       "customSize": true,
-      "depth": 1299,
-      "height": 1198,
+      "depth": 1106,
+      "height": 1020,
       "keepRatio": true,
       "layer": "",
       "name": "HouseOpen",
       "persistentUuid": "e904f614-da39-4a7a-8894-427411ee8b36",
-      "width": 1085,
-      "x": 3029,
-      "y": 478,
-      "z": -75,
+      "width": 924,
+      "x": 1010,
+      "y": -789,
+      "z": -400,
       "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 960,
+      "height": 583,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HouseDoor",
+      "persistentUuid": "6b84bb74-06b1-4a6d-ad30-b7c2713745cc",
+      "width": 456,
+      "x": 1000,
+      "y": -1631,
+      "z": -450,
+      "zOrder": 208,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 100,
+      "layer": "",
+      "name": "Platform2",
+      "persistentUuid": "9962488c-ca92-4d00-b498-a887ec77301d",
+      "width": 100,
+      "x": 1075,
+      "y": 1283,
+      "z": -90,
+      "zOrder": 209,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 450,
+      "height": 100,
+      "layer": "",
+      "name": "Platform3",
+      "persistentUuid": "3b41059f-a0a2-4d0a-9efa-495efa69e4e8",
+      "width": 100,
+      "x": 1207,
+      "y": 1184,
+      "z": -90,
+      "zOrder": 210,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -692,30 +799,232 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "HouseDoor",
-      "persistentUuid": "195824e4-5a23-4b8f-9f57-45be349354f6",
+      "name": "Platform4",
+      "persistentUuid": "afd0445b-27bc-4d56-80df-8ac0e47ffde5",
       "width": 0,
-      "x": 1046,
-      "y": -370,
-      "zOrder": 207,
+      "x": 1235,
+      "y": 1350,
+      "z": -90,
+      "zOrder": 211,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 180,
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Platform5",
+      "persistentUuid": "7542045b-7f8e-45e5-a0ee-9fd056bfa975",
+      "width": 0,
+      "x": 1394,
+      "y": 1422,
+      "z": -90,
+      "zOrder": 212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": true,
-      "depth": 1212,
-      "height": 736,
+      "depth": 900,
+      "height": 100,
+      "layer": "",
+      "name": "Platform6",
+      "persistentUuid": "aaa18adb-f2dd-44c8-b505-dc534f8b7fd0",
+      "width": 100,
+      "x": 1253,
+      "y": 1576,
+      "z": -90,
+      "zOrder": 213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1050,
+      "height": 229,
+      "layer": "",
+      "name": "Platform7",
+      "persistentUuid": "96f31b7a-5edd-4d45-a54a-8547112d0e8f",
+      "width": 229,
+      "x": 1447,
+      "y": 1584,
+      "z": -90,
+      "zOrder": 214,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 578,
+      "height": 875,
+      "layer": "",
+      "name": "InvisibleWall",
+      "persistentUuid": "8805b1aa-2baf-42d7-97ae-57a0253a80cb",
+      "width": 332,
+      "x": 1182,
+      "y": -1215,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 584,
+      "height": 922,
       "keepRatio": true,
       "layer": "",
-      "name": "HouseDoor",
-      "persistentUuid": "6b84bb74-06b1-4a6d-ad30-b7c2713745cc",
-      "width": 576,
-      "x": 3917,
-      "y": 503,
-      "z": -100,
-      "zOrder": 208,
+      "name": "InvisibleWall2",
+      "persistentUuid": "d10525d0-6091-4948-ba15-a574a292c319",
+      "width": 234,
+      "x": 576,
+      "y": -1261,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 150,
+      "height": 128,
+      "layer": "",
+      "name": "Platform8",
+      "persistentUuid": "39390521-5d61-4310-824e-7195dc78ae0b",
+      "width": 650,
+      "x": 239,
+      "y": 1824,
+      "z": -90,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 942,
+      "layer": "",
+      "name": "Platform9",
+      "persistentUuid": "f4ad028f-b7c7-4ed6-99bb-85be40f44130",
+      "width": 650,
+      "x": 248,
+      "y": 1944,
+      "z": -90,
+      "zOrder": 218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 800,
+      "height": 84,
+      "layer": "",
+      "name": "Platform10",
+      "persistentUuid": "f876ead4-eaeb-4f9d-b75a-7f8756d26fb7",
+      "width": 650,
+      "x": 238,
+      "y": 2869,
+      "z": -90,
+      "zOrder": 219,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 352,
+      "layer": "",
+      "name": "Platform11",
+      "persistentUuid": "7d7970fa-768d-4946-913c-904cad4283aa",
+      "width": 618,
+      "x": 260,
+      "y": 2907,
+      "z": -90,
+      "zOrder": 220,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 800,
+      "height": 100,
+      "layer": "",
+      "name": "Platform12",
+      "persistentUuid": "6824eb82-d1ae-4910-ba6e-cbd25514d50e",
+      "width": 650,
+      "x": 252,
+      "y": 3271,
+      "z": -90,
+      "zOrder": 221,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 350,
+      "layer": "",
+      "name": "Platform13",
+      "persistentUuid": "4f47547e-bd09-42be-82e0-0757591b0d78",
+      "width": 650,
+      "x": 254,
+      "y": 3383,
+      "z": -90,
+      "zOrder": 222,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 800,
+      "height": 100,
+      "layer": "",
+      "name": "Platform14",
+      "persistentUuid": "955e0939-714d-487c-89db-d7aecc3080d6",
+      "width": 650,
+      "x": 253,
+      "y": 3744,
+      "z": -90,
+      "zOrder": 223,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 300,
+      "height": 400,
+      "layer": "",
+      "name": "Platform15",
+      "persistentUuid": "aee9afef-b9bd-4b2b-a1d0-a1dd0bd4494c",
+      "width": 650,
+      "x": 252,
+      "y": 3878,
+      "z": -90,
+      "zOrder": 224,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2548,6 +2857,36 @@
           "name": "Jump",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "RepairedShipHull",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "RepairedThruster",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "RepairedShipPart1",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "RepairedShipPart2",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "RepairedShipPart3",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "RepairedShipPart4",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -2635,9 +2974,9 @@
         }
       ],
       "content": {
-        "width": 100,
-        "height": 100,
-        "depth": 100,
+        "width": 50,
+        "height": 50,
+        "depth": 50,
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
         "frontFaceResourceName": "",
@@ -4163,6 +4502,566 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform2",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 400,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform3",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 600,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform4",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 600,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform5",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 750,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform6",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 750,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform7",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 1050,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "InvisibleWall",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "InvisibleWall2",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "",
+        "backFaceResourceName": "",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "",
+        "rightFaceResourceName": "",
+        "topFaceResourceName": "",
+        "bottomFaceResourceName": "",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": false,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform8",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform9",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform10",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform11",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform12",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform13",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform14",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform15",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4212,6 +5111,12 @@
           },
           {
             "objectName": "HouseOpen"
+          },
+          {
+            "objectName": "InvisibleWall"
+          },
+          {
+            "objectName": "InvisibleWall2"
           },
           {
             "objectName": "HouseOpenBack"
@@ -4538,10 +5443,67 @@
         ]
       },
       {
-        "objectName": "Ground"
-      },
-      {
-        "objectName": "Platform"
+        "folderName": "Platform",
+        "children": [
+          {
+            "objectName": "Ground"
+          },
+          {
+            "folderName": "2nd Obby",
+            "children": [
+              {
+                "objectName": "Platform8"
+              },
+              {
+                "objectName": "Platform9"
+              },
+              {
+                "objectName": "Platform10"
+              },
+              {
+                "objectName": "Platform11"
+              },
+              {
+                "objectName": "Platform12"
+              },
+              {
+                "objectName": "Platform13"
+              },
+              {
+                "objectName": "Platform14"
+              },
+              {
+                "objectName": "Platform15"
+              }
+            ]
+          },
+          {
+            "folderName": "1st Obby",
+            "children": [
+              {
+                "objectName": "Platform"
+              },
+              {
+                "objectName": "Platform2"
+              },
+              {
+                "objectName": "Platform3"
+              },
+              {
+                "objectName": "Platform4"
+              },
+              {
+                "objectName": "Platform5"
+              },
+              {
+                "objectName": "Platform6"
+              },
+              {
+                "objectName": "Platform7"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -4728,6 +5690,22 @@
           "parameters": [
             "L"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InvisibleWall"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InvisibleWall2"
+          ]
         }
       ]
     },
@@ -4838,31 +5816,7 @@
           "parameters": [
             "Camera",
             "Jump3D",
-            "HouseOpen",
-            "Object3D",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
-          },
-          "parameters": [
-            "Camera",
-            "Jump3D",
             "Stairs",
-            "Object3D",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
-          },
-          "parameters": [
-            "Camera",
-            "Jump3D",
-            "HouseOpen",
             "Object3D",
             ""
           ]
@@ -4876,6 +5830,101 @@
             "Jump3D",
             "HouseDoor",
             "Object3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "PlatformGroup",
+            "Object3D",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "RepairedShipHull",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "RepairedThruster",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "RepairedShipPart1",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "RepairedShipPart2",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "RepairedShipPart3",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "RepairedShipPart4",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"End Screen\"",
             ""
           ]
         }
@@ -5815,6 +6864,17 @@
               "parameters": [
                 "ShipHullInv"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "RepairedShipHull",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -5840,6 +6900,17 @@
               },
               "parameters": [
                 "ThrusterInv"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "RepairedThruster",
+                "True",
+                ""
               ]
             }
           ]
@@ -5867,6 +6938,17 @@
               "parameters": [
                 "ShipPart1Inv"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "RepairedShipPart1",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -5892,6 +6974,17 @@
               },
               "parameters": [
                 "ShipPart2Inv"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "RepairedShipPart2",
+                "True",
+                ""
               ]
             }
           ]
@@ -5919,6 +7012,17 @@
               "parameters": [
                 "ShipPart3Inv"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "RepairedShipPart3",
+                "True",
+                ""
+              ]
             }
           ]
         },
@@ -5944,6 +7048,17 @@
               },
               "parameters": [
                 "ShipPart4Inv"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "RepairedShipPart4",
+                "True",
+                ""
               ]
             }
           ]
