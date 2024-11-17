@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1713093451124197,
+    "zoomFactor": 0.11894533708001187,
     "windowMask": false
   },
   "objectsGroups": [
@@ -624,8 +624,8 @@
       "name": "Ground",
       "persistentUuid": "a1111091-72ed-4eac-a484-6ad03eff51b9",
       "width": 17876,
-      "x": -6707,
-      "y": -5873,
+      "x": -5741,
+      "y": -2114,
       "z": -100,
       "zOrder": 202,
       "numberProperties": [],
@@ -646,6 +646,76 @@
       "y": 856,
       "z": -70,
       "zOrder": 203,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 138,
+      "height": 588,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Stairs",
+      "persistentUuid": "3866d0a4-f169-4b7f-97e8-126f5665fb12",
+      "width": 1347,
+      "x": 3047,
+      "y": 569,
+      "z": -50,
+      "zOrder": 204,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1299,
+      "height": 1198,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HouseOpen",
+      "persistentUuid": "e904f614-da39-4a7a-8894-427411ee8b36",
+      "width": 1085,
+      "x": 3029,
+      "y": 478,
+      "z": -75,
+      "zOrder": 206,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HouseDoor",
+      "persistentUuid": "195824e4-5a23-4b8f-9f57-45be349354f6",
+      "width": 0,
+      "x": 1046,
+      "y": -370,
+      "zOrder": 207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": true,
+      "depth": 1212,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HouseDoor",
+      "persistentUuid": "6b84bb74-06b1-4a6d-ad30-b7c2713745cc",
+      "width": 576,
+      "x": 3917,
+      "y": 503,
+      "z": -100,
+      "zOrder": 208,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4757,6 +4827,54 @@
             "Camera",
             "Jump3D",
             "Ground",
+            "Object3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "HouseOpen",
+            "Object3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "Stairs",
+            "Object3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "HouseOpen",
+            "Object3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "HouseDoor",
             "Object3D",
             ""
           ]
