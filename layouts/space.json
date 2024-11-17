@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.03373115662024625,
+    "zoomFactor": 0.1713093451124197,
     "windowMask": false
   },
   "objectsGroups": [
@@ -27,27 +27,6 @@
       "objects": [
         {
           "name": "Ground"
-        },
-        {
-          "name": "Thruster"
-        },
-        {
-          "name": "Spaceship"
-        },
-        {
-          "name": "ShipHull"
-        },
-        {
-          "name": "ShipPart1"
-        },
-        {
-          "name": "ShipPart2"
-        },
-        {
-          "name": "ShipPart3"
-        },
-        {
-          "name": "ShipPart4"
         }
       ]
     }
@@ -628,8 +607,8 @@
       "name": "Camera",
       "persistentUuid": "fcaed271-55f8-4192-b99e-f32d69f8feac",
       "width": 0,
-      "x": 438,
-      "y": 406,
+      "x": 97,
+      "y": 495,
       "zOrder": 201,
       "numberProperties": [],
       "stringProperties": [],
@@ -649,6 +628,24 @@
       "y": -5873,
       "z": -100,
       "zOrder": 202,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 506,
+      "height": 506,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "4a654ce7-9b16-4b77-aeda-78ec418a472b",
+      "width": 506,
+      "x": 940,
+      "y": 856,
+      "z": -70,
+      "zOrder": 203,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2285,9 +2282,83 @@
       "assetStoreId": "964c5df948747d057c8110ff2f526fb4e6831e89620e1d18481ffb4ab78aaf6d",
       "name": "AstronautRaeTheRedPanda",
       "type": "Scene3D::Model3DObject",
-      "variables": [],
+      "variables": [
+        {
+          "name": "Oxygen",
+          "type": "number",
+          "value": 100
+        },
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "Jump",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "HasThruster",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipHull",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart1",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart2",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart3",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "HasShipPart4",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 5,
+          "CurrentHealth": 0,
+          "MaxHealth": 5,
+          "DamageCooldown": 0,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        },
         {
           "name": "Jump3D",
           "type": "Jump3D::Jump3D",
@@ -2304,7 +2375,7 @@
           "PreviousFallSpeed": 0.19999992847454,
           "HasPressedJumpKey": false,
           "CanJump": true,
-          "ShouldStopAtZero": true,
+          "ShouldStopAtZero": false,
           "PreviousState": "Idle"
         },
         {
@@ -2402,6 +2473,11 @@
           "name": "HasShipPart4",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Jump",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -2438,7 +2514,7 @@
           "name": "Jump3D",
           "type": "Jump3D::Jump3D",
           "Object3D": "Object3D",
-          "JumpHeight": 150,
+          "JumpHeight": 300,
           "MaxFallingSpeed": 700,
           "Gravity": 1000,
           "JumpSpeed": 600,
@@ -2460,7 +2536,7 @@
           "RotationAcceleration": 720,
           "RotationDeceleration": 720,
           "TranslationSpeedMax": 400,
-          "TranslationAcceleration": 1600,
+          "TranslationAcceleration": 2000,
           "TranslationDeceleration": 1600,
           "CurrentRotationSpeed": 0,
           "PreviousRotationSpeed": 0,
@@ -3962,12 +4038,12 @@
         "enableTextureTransparency": false,
         "facesOrientation": "Y",
         "frontFaceResourceName": "lunarrock_d5.png",
-        "backFaceResourceName": "",
+        "backFaceResourceName": "lunarrock_d5.png",
         "backFaceUpThroughWhichAxisRotation": "X",
-        "leftFaceResourceName": "",
-        "rightFaceResourceName": "",
-        "topFaceResourceName": "",
-        "bottomFaceResourceName": "",
+        "leftFaceResourceName": "lunarrock_d5.png",
+        "rightFaceResourceName": "lunarrock_d5.png",
+        "topFaceResourceName": "lunarrock_d5.png",
+        "bottomFaceResourceName": "lunarrock_d5.png",
         "frontFaceVisible": true,
         "backFaceVisible": false,
         "leftFaceVisible": true,
@@ -3981,6 +4057,41 @@
         "topFaceResourceRepeat": false,
         "bottomFaceResourceRepeat": false,
         "materialType": "StandardWithoutMetalness"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Platform",
+      "type": "Scene3D::Cube3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "width": 100,
+        "height": 100,
+        "depth": 100,
+        "enableTextureTransparency": false,
+        "facesOrientation": "Y",
+        "frontFaceResourceName": "stone-1024.jpg",
+        "backFaceResourceName": "stone-1024.jpg",
+        "backFaceUpThroughWhichAxisRotation": "X",
+        "leftFaceResourceName": "stone-1024.jpg",
+        "rightFaceResourceName": "stone-1024.jpg",
+        "topFaceResourceName": "stone-1024.jpg",
+        "bottomFaceResourceName": "stone-1024.jpg",
+        "frontFaceVisible": true,
+        "backFaceVisible": false,
+        "leftFaceVisible": true,
+        "rightFaceVisible": true,
+        "topFaceVisible": true,
+        "bottomFaceVisible": true,
+        "frontFaceResourceRepeat": true,
+        "backFaceResourceRepeat": false,
+        "leftFaceResourceRepeat": false,
+        "rightFaceResourceRepeat": false,
+        "topFaceResourceRepeat": false,
+        "bottomFaceResourceRepeat": false,
+        "materialType": "Basic"
       }
     }
   ],
@@ -4358,6 +4469,9 @@
       },
       {
         "objectName": "Ground"
+      },
+      {
+        "objectName": "Platform"
       }
     ]
   },
@@ -4553,139 +4667,98 @@
       "actions": [
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
-            "Spaceship",
+            "Jump3D",
+            "Platform",
+            "Object3D",
             ""
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
+            "Jump3D",
             "ShipHull",
+            "Object3D",
             ""
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
+            "Jump3D",
             "Thruster",
+            "Object3D",
             ""
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
+            "Jump3D",
             "ShipPart1",
+            "Object3D",
             ""
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
+            "Jump3D",
             "ShipPart2",
+            "Object3D",
             ""
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
+            "Jump3D",
             "ShipPart3",
+            "Object3D",
             ""
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
+            "Jump3D",
             "ShipPart4",
+            "Object3D",
             ""
           ]
         },
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
           },
           "parameters": [
             "Camera",
-            "OxygenTank",
+            "Jump3D",
+            "Ground",
+            "Object3D",
             ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Camera",
-            "PlatformGroup",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "PlatformGroup",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Scene3D::Base3DBehavior::Z"
-                  },
-                  "parameters": [
-                    "Camera",
-                    "Object3D",
-                    "<",
-                    "PlatformGroup.Object3D::Z() + PlatformGroup.Object3D::Depth()"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Scene3D::Base3DBehavior::SetZ"
-                  },
-                  "parameters": [
-                    "Camera",
-                    "Object3D",
-                    "=",
-                    "PlatformGroup.Object3D::Z() + PlatformGroup.Object3D::Depth()"
-                  ]
-                }
-              ]
-            }
           ]
         }
       ]
@@ -6165,20 +6238,55 @@
                 "Camera",
                 "Object3D",
                 "+",
-                "clamp(MousePointerLock::MovementY()/17.5,-90,90)"
-              ]
-            },
-            {
-              "type": {
-                "value": "FirstPersonCamera::LookFromObjectEyes"
-              },
-              "parameters": [
-                "",
-                "Camera",
-                "",
-                ""
+                "MousePointerLock::MovementY()/17.5"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene3D::Base3DBehavior::SetRotationY"
+          },
+          "parameters": [
+            "Camera",
+            "Object3D",
+            "=",
+            "clamp(Camera.Object3D::RotationY(), -90, 90)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "FirstPersonCamera::LookFromObjectEyes"
+          },
+          "parameters": [
+            "",
+            "Camera",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene3D::SetCameraZ"
+          },
+          "parameters": [
+            "Camera",
+            "+",
+            "Camera.Object3D::Depth()",
+            "",
+            ""
           ]
         }
       ]
@@ -6316,6 +6424,12 @@
             "",
             "Space"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -6457,18 +6571,6 @@
       "type": "Walk3D::Walk3D",
       "Cos": 0,
       "Sin": 0
-    },
-    {
-      "name": "cameraBehaviour",
-      "type": "BabylonGD::cameraBehaviour"
-    },
-    {
-      "name": "lightBehaviour",
-      "type": "BabylonGD::lightBehaviour"
-    },
-    {
-      "name": "terrainBehaviour",
-      "type": "BabylonGD::terrainBehaviour"
     }
   ]
 }
