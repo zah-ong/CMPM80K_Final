@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.051732600814721044,
+    "zoomFactor": 0.07561126652335169,
     "windowMask": false
   },
   "objectsGroups": [
@@ -749,8 +749,8 @@
       "name": "Ground",
       "persistentUuid": "a1111091-72ed-4eac-a484-6ad03eff51b9",
       "width": 104792,
-      "x": -32180,
-      "y": -36521,
+      "x": -46619,
+      "y": -35087,
       "z": -100,
       "zOrder": 202,
       "numberProperties": [],
@@ -1736,7 +1736,7 @@
       "width": 9845,
       "x": -3704,
       "y": 5468,
-      "zOrder": 254,
+      "zOrder": 1000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1753,6 +1753,40 @@
       "x": 1781,
       "y": 1736,
       "zOrder": 254,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "New3DModel",
+      "persistentUuid": "ea0142a0-8497-4b9b-8d6f-8efb12fc7c47",
+      "width": 0,
+      "x": -16061,
+      "y": -395,
+      "zOrder": 1001,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 3655,
+      "height": 3655,
+      "keepRatio": true,
+      "layer": "",
+      "name": "New3DModel",
+      "persistentUuid": "eac5923f-43ee-4c1c-af65-6125bcd2e107",
+      "width": 3655,
+      "x": 893,
+      "y": 1525,
+      "z": 11000,
+      "zOrder": 1002,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -7036,6 +7070,28 @@
         "bottomFaceResourceRepeat": false,
         "materialType": "Basic"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "New3DModel",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 100,
+        "height": 100,
+        "keepAspectRatio": true,
+        "materialType": "KeepOriginal",
+        "modelResourceName": "sun.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 0,
+        "rotationY": 0,
+        "rotationZ": 0,
+        "width": 100,
+        "animations": []
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7583,6 +7639,9 @@
             ]
           }
         ]
+      },
+      {
+        "objectName": "New3DModel"
       }
     ]
   },
@@ -9557,6 +9616,16 @@
           },
           "parameters": [
             "Camera",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Dead Scene\"",
             ""
           ]
         }

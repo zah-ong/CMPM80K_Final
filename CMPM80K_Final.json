@@ -1180,6 +1180,40 @@
         "name": "lunarrock_d5.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sun.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sun.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/46b2c086c8ade9b55450cbbd2944de792d3c3e5f6885519153ca2f7e17c5eae5_Sun.png",
+          "name": "Sun.png"
+        }
+      },
+      {
+        "file": "sun.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "sun.glb",
+        "userAdded": false
+      },
+      {
+        "file": "speech_bubble.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "speech_bubble.glb",
+        "userAdded": false
+      },
+      {
+        "file": "speech_bubble2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "speech_bubble2.glb",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1197,7 +1231,15 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/space"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/dead-scene"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

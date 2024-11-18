@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "End_32Screen",
-  "name": "End Screen",
+  "mangledName": "Credits",
+  "name": "Credits",
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2541622678027237,
+    "zoomFactor": 0.546875,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,16 +27,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 63,
-      "height": 153,
+      "depth": 292,
+      "height": 290,
       "keepRatio": true,
       "layer": "",
-      "name": "AstronautRaeTheRedPanda",
-      "persistentUuid": "6904783a-17bb-4cba-bb5c-d0e9071fabd4",
-      "width": 274,
-      "x": 617,
-      "y": 434,
-      "z": 300,
+      "name": "Planet3",
+      "persistentUuid": "2b68cf6e-20ae-4ede-8752-4f59ce77e05f",
+      "width": 271,
+      "x": 91,
+      "y": 100,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -45,32 +44,32 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 364,
-      "height": 410,
+      "depth": 307,
+      "height": 303,
       "keepRatio": true,
       "layer": "",
-      "name": "HouseSingle",
-      "persistentUuid": "1dc255dd-31b8-4aeb-a6f9-845e9e57bd44",
-      "width": 375,
-      "x": 361,
-      "y": 591,
+      "name": "Planet11",
+      "persistentUuid": "794d5d03-df0f-461e-afd1-bb2822aad9ce",
+      "width": 311,
+      "x": 561,
+      "y": 102,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 10,
+      "angle": 0,
       "customSize": true,
-      "depth": 174023,
-      "height": 169114,
+      "depth": 336,
+      "height": 369,
       "keepRatio": true,
       "layer": "",
-      "name": "Planet1",
-      "persistentUuid": "4be6a73b-b913-4b29-afeb-4042bb0401a3",
-      "width": 170334,
-      "x": -2846,
-      "y": 88051,
+      "name": "Planet4",
+      "persistentUuid": "06985328-68ae-4d22-b003-08836332f7b8",
+      "width": 326,
+      "x": 1082,
+      "y": 190,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -78,33 +77,33 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 372,
+      "height": 373,
       "keepRatio": true,
       "layer": "",
-      "name": "Oxygen",
-      "persistentUuid": "2a1545e3-6393-402f-a0e1-48f81967a14a",
-      "width": 0,
-      "x": 478,
-      "y": 519,
-      "z": 100,
+      "name": "Planet6",
+      "persistentUuid": "e463b861-eec1-493d-b848-4e7fda47fb63",
+      "width": 373,
+      "x": 142,
+      "y": 671,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 15,
+      "angle": 0,
       "customSize": true,
-      "depth": 30545,
-      "height": 29694,
+      "depth": 356,
+      "height": 334,
       "keepRatio": true,
       "layer": "",
-      "name": "Planet1",
-      "persistentUuid": "c2ac55ac-8540-492f-a11f-e46366416395",
-      "width": 29892,
-      "x": 372,
-      "y": 15588,
+      "name": "Planet5",
+      "persistentUuid": "3b26003e-74e3-486d-8a35-76b1e7925877",
+      "width": 318,
+      "x": 553,
+      "y": 489,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,16 +112,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1988,
-      "height": 1959,
+      "depth": 314,
+      "height": 384,
       "keepRatio": true,
       "layer": "",
-      "name": "New3DModel",
-      "persistentUuid": "0f3da6ef-93fc-4aa5-83fa-9126037c2370",
-      "width": 4221,
-      "x": 1418,
-      "y": 211,
-      "z": -1500,
+      "name": "Planet10",
+      "persistentUuid": "f6759c75-abf7-49dc-bebc-bceaf5b519b3",
+      "width": 384,
+      "x": 1048,
+      "y": 658,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,16 +129,15 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 287,
-      "height": 246,
+      "depth": 63,
+      "height": 84,
       "keepRatio": true,
-      "layer": "",
-      "name": "Rock1",
-      "persistentUuid": "0d908607-2794-4f81-a312-f2d4cee5630c",
-      "width": 225,
-      "x": 106,
-      "y": 441,
-      "z": 10,
+      "layer": "UI",
+      "name": "MainMenu",
+      "persistentUuid": "95444511-790f-4d03-b231-3c286f3e0d73",
+      "width": 252,
+      "x": 499,
+      "y": 599,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -148,85 +145,17 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 221,
+      "height": 504,
       "keepRatio": true,
-      "layer": "",
-      "name": "RockLarge2",
-      "persistentUuid": "4b11a355-1873-42ef-859c-d3475badca34",
-      "width": 0,
-      "x": 947,
-      "y": 512,
+      "layer": "UI",
+      "name": "MainMenu2",
+      "persistentUuid": "4be67b03-4455-405a-99a5-120477ac5f08",
+      "width": 885,
+      "x": 180,
+      "y": 10,
       "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 553,
-      "height": 395,
-      "keepRatio": true,
-      "layer": "",
-      "name": "RockLarge3",
-      "persistentUuid": "9891152e-16a3-494e-8058-98cf60d9aeed",
-      "width": 386,
-      "x": 1104,
-      "y": 547,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 57,
-      "height": 76,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "MainMenu",
-      "persistentUuid": "d9a9af86-31c2-408a-8656-34cdc6ed0b5f",
-      "width": 227,
-      "x": 500,
-      "y": 118,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 46,
-      "customSize": true,
-      "depth": 953,
-      "height": 22,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "New3DModel2",
-      "persistentUuid": "5547d27c-575f-4d87-8e19-bb112629136b",
-      "rotationX": 90,
-      "width": 500,
-      "x": 1207,
-      "y": -515,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 19,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "NewText",
-      "persistentUuid": "fd735dfb-98be-4b68-9b48-5b9678531893",
-      "width": 286,
-      "x": 785,
-      "y": 173,
-      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -234,269 +163,134 @@
   ],
   "objects": [
     {
-      "assetStoreId": "964c5df948747d057c8110ff2f526fb4e6831e89620e1d18481ffb4ab78aaf6d",
-      "name": "AstronautRaeTheRedPanda",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ObjectCenter",
-        "depth": 157,
-        "height": 157,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Astronaut Rae The Red Panda.glb",
-        "originLocation": "ObjectCenter",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 157,
-        "animations": [
-          {
-            "loop": false,
-            "name": "",
-            "source": "Idle"
-          },
-          {
-            "loop": false,
-            "name": "Death",
-            "source": "Death"
-          },
-          {
-            "loop": false,
-            "name": "Duck",
-            "source": "Duck"
-          },
-          {
-            "loop": false,
-            "name": "HitReact",
-            "source": "HitReact"
-          },
-          {
-            "loop": false,
-            "name": "Idle_Gun",
-            "source": "Idle_Gun"
-          },
-          {
-            "loop": false,
-            "name": "Jump",
-            "source": "Jump"
-          },
-          {
-            "loop": false,
-            "name": "Jump_Idle",
-            "source": "Jump_Idle"
-          },
-          {
-            "loop": false,
-            "name": "Jump_Land",
-            "source": "Jump_Land"
-          },
-          {
-            "loop": false,
-            "name": "No",
-            "source": "No"
-          },
-          {
-            "loop": false,
-            "name": "Punch",
-            "source": "Punch"
-          },
-          {
-            "loop": false,
-            "name": "Run",
-            "source": "Run"
-          },
-          {
-            "loop": false,
-            "name": "Run_Gun",
-            "source": "Run_Gun"
-          },
-          {
-            "loop": false,
-            "name": "Run_Gun_Shoot",
-            "source": "Run_Gun_Shoot"
-          },
-          {
-            "loop": false,
-            "name": "Walk",
-            "source": "Walk"
-          },
-          {
-            "loop": false,
-            "name": "Walk_Gun",
-            "source": "Walk_Gun"
-          },
-          {
-            "loop": false,
-            "name": "Wave",
-            "source": "Wave"
-          },
-          {
-            "loop": false,
-            "name": "Weapon",
-            "source": "Weapon"
-          },
-          {
-            "loop": false,
-            "name": "Yes",
-            "source": "Yes"
-          }
-        ]
-      }
-    },
-    {
-      "assetStoreId": "ffba0074a39910761ed156661b2921f39f5032700ad7d4ff12230c485208d9b3",
-      "name": "HouseSingle",
+      "assetStoreId": "4c607a2510a293c9d5a1dc77d9e3d155082c71e150562138a9422149b505ac8b",
+      "name": "Planet10",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 120,
-        "height": 120,
+        "depth": 172,
+        "height": 172,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "House Single.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 1,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 120,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "ec2bb6b6658773be0d359647655ca0f985e11a7bf52aa883c21ab161ef8f9686",
-      "name": "Planet1",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 120,
-        "height": 120,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Planet 1.glb",
+        "modelResourceName": "Planet 10.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 120,
+        "width": 172,
         "animations": []
       }
     },
     {
-      "assetStoreId": "",
-      "name": "Oxygen",
+      "assetStoreId": "91b96c5c649a64e5178cc0623a199c86daecc4dbac8067e42681a2ec05f047c3",
+      "name": "Planet5",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 150,
-        "height": 150,
-        "keepAspectRatio": true,
-        "materialType": "KeepOriginal",
-        "modelResourceName": "oxygen_farm_1.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 1,
-        "width": 150,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "name": "New3DModel",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
+        "depth": 135,
+        "height": 135,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "SpaceShip.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 9,
-        "rotationY": 90,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "ad668e835454a39b9a1f750ca21cd0f72142396dbdde07b7ca4629db7f8dd489",
-      "name": "RockLarge3",
-      "type": "Scene3D::Model3DObject",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 223,
-        "height": 223,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Rock Large 3.glb",
+        "modelResourceName": "Planet 5.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 223,
+        "width": 135,
         "animations": []
       }
     },
     {
-      "assetStoreId": "79bb27dab2fc504331bcbafea087d429158405ac24c6f0d874225b3d80380e3b",
-      "name": "RockLarge2",
+      "assetStoreId": "2b16d808e7a1d358875e60d68e4c987752617e018354e662cdf6eacea3036a81",
+      "name": "Planet6",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 256,
-        "height": 256,
+        "depth": 113,
+        "height": 113,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Rock Large 2.glb",
+        "modelResourceName": "Planet 6.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 256,
+        "width": 113,
         "animations": []
       }
     },
     {
-      "assetStoreId": "1365cdbea3917df4b0647e2ce729eea3f4a59f0413af00255712e05f88e94f8d",
-      "name": "Rock1",
+      "assetStoreId": "7e31a8fcf693d4c70f0ef3f05bef76be1e678d363bc2ea80711be65017e9b686",
+      "name": "Planet4",
       "type": "Scene3D::Model3DObject",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
         "centerLocation": "ModelOrigin",
-        "depth": 108,
-        "height": 108,
+        "depth": 136,
+        "height": 136,
         "keepAspectRatio": true,
         "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "Rock 1.glb",
+        "modelResourceName": "Planet 4.glb",
         "originLocation": "ModelOrigin",
         "rotationX": 90,
         "rotationY": 0,
         "rotationZ": 90,
-        "width": 108,
+        "width": 136,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c2b98d97ae8b3b741919988d447da552769dfbaa1503a5ce2629ad414f7a05ca",
+      "name": "Planet11",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 172,
+        "height": 172,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 11.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 172,
+        "animations": []
+      }
+    },
+    {
+      "assetStoreId": "c7c4ce58fe565dddaa33de790e9d899ad753856ec94f9f519dfd8b5867f0e8ea",
+      "name": "Planet3",
+      "type": "Scene3D::Model3DObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "centerLocation": "ModelOrigin",
+        "depth": 110,
+        "height": 110,
+        "keepAspectRatio": true,
+        "materialType": "StandardWithoutMetalness",
+        "modelResourceName": "Planet 3.glb",
+        "originLocation": "ModelOrigin",
+        "rotationX": 90,
+        "rotationY": 0,
+        "rotationZ": 90,
+        "width": 110,
         "animations": []
       }
     },
@@ -544,7 +338,7 @@
           "string": "Main Menu",
           "font": "mononoki-Regular.ttf",
           "textAlignment": "center",
-          "characterSize": 26,
+          "characterSize": 30,
           "color": {
             "b": 255,
             "g": 255,
@@ -568,7 +362,7 @@
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 26,
+            "characterSize": 30,
             "color": "255;255;255"
           }
         },
@@ -585,67 +379,87 @@
       }
     },
     {
-      "assetStoreId": "",
-      "name": "New3DModel2",
-      "type": "Scene3D::Model3DObject",
+      "assetStoreId": "0d2644a425931f79026065835332ea795353d1f99fcd6ccd47ab7927bd0f35ed",
+      "name": "MainMenu2",
+      "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
       "behaviors": [],
       "content": {
-        "centerLocation": "ModelOrigin",
-        "depth": 100,
-        "height": 100,
-        "keepAspectRatio": true,
-        "materialType": "StandardWithoutMetalness",
-        "modelResourceName": "speech_bubble.glb",
-        "originLocation": "ModelOrigin",
-        "rotationX": 0,
-        "rotationY": 0,
-        "rotationZ": 0,
-        "width": 100,
-        "animations": []
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Thanks for getting me home!",
-      "font": "mononoki-Regular.ttf",
-      "textAlignment": "left",
-      "characterSize": 45,
-      "color": {
-        "b": 74,
-        "g": 74,
-        "r": 74
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 6,
+        "BottomPadding": 24,
+        "TopPadding": 24,
+        "HoveredFadeOutDuration": 0.25
       },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Thanks for getting me home!",
-        "font": "mononoki-Regular.ttf",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 45,
-        "color": "74;74;74"
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 22,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Credits:\n\nGDevelop\n\nsketchfab:\nSebastianSosnowski\nIsabel.Tan\nElliot\ndimitrisc\n\nOpenGameArt:\ncron\nBart K.",
+          "font": "mononoki-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Credits:\n\nGDevelop\n\nsketchfab:\nSebastianSosnowski\nIsabel.Tan\nElliot\ndimitrisc\n\nOpenGameArt:\ncron\nBart K.",
+            "font": "mononoki-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 64,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Black Square Decorated Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 22,
+          "width": 192
+        }
       }
     }
   ],
@@ -653,37 +467,28 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "AstronautRaeTheRedPanda"
+        "objectName": "Planet10"
       },
       {
-        "objectName": "HouseSingle"
+        "objectName": "Planet5"
       },
       {
-        "objectName": "Planet1"
+        "objectName": "Planet6"
       },
       {
-        "objectName": "Oxygen"
+        "objectName": "Planet4"
       },
       {
-        "objectName": "New3DModel"
+        "objectName": "Planet11"
       },
       {
-        "objectName": "RockLarge3"
-      },
-      {
-        "objectName": "RockLarge2"
-      },
-      {
-        "objectName": "Rock1"
+        "objectName": "Planet3"
       },
       {
         "objectName": "MainMenu"
       },
       {
-        "objectName": "New3DModel2"
-      },
-      {
-        "objectName": "NewText"
+        "objectName": "MainMenu2"
       }
     ]
   },
@@ -854,10 +659,6 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "Text",
-      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
