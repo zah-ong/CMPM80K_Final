@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.07561126652335169,
+    "zoomFactor": 1.0735718605204632,
     "windowMask": false
   },
   "objectsGroups": [
@@ -3699,6 +3699,21 @@
           "CanJump": true,
           "ShouldStopAtZero": true,
           "PreviousState": "Idle"
+        },
+        {
+          "acceleration": 400,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": true,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
         },
         {
           "name": "Walk3D",
@@ -7876,6 +7891,27 @@
           "parameters": [
             "Barrier"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "Camera",
+            "\"Walk\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "189627__qubodup__loud-silence.wav",
+            "yes",
+            "",
+            ""
+          ]
         }
       ]
     },
@@ -9931,6 +9967,78 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Camera",
+                "Ground",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Jump3D::Jump3D::IsJumping"
+              },
+              "parameters": [
+                "Camera",
+                "Jump3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\"",
+                    ">=",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "9e6c1c3f9594ea0796b8bbd636507bfe04625bc14344d5fc2a673e0da51030d7_Walk_01.wav",
+                    "",
+                    "50",
+                    "0.025"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -9955,6 +10063,78 @@
             "Camera",
             "Walk3D",
             ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Camera",
+                "Ground",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Jump3D::Jump3D::IsJumping"
+              },
+              "parameters": [
+                "Camera",
+                "Jump3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\"",
+                    ">=",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "9e6c1c3f9594ea0796b8bbd636507bfe04625bc14344d5fc2a673e0da51030d7_Walk_01.wav",
+                    "",
+                    "50",
+                    "0.025"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
@@ -9983,6 +10163,78 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Camera",
+                "Ground",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Jump3D::Jump3D::IsJumping"
+              },
+              "parameters": [
+                "Camera",
+                "Jump3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\"",
+                    ">=",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "9e6c1c3f9594ea0796b8bbd636507bfe04625bc14344d5fc2a673e0da51030d7_Walk_01.wav",
+                    "",
+                    "50",
+                    "0.025"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -10007,6 +10259,78 @@
             "Camera",
             "Walk3D",
             ""
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Camera",
+                "Ground",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Jump3D::Jump3D::IsJumping"
+              },
+              "parameters": [
+                "Camera",
+                "Jump3D",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\"",
+                    ">=",
+                    "0.5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "9e6c1c3f9594ea0796b8bbd636507bfe04625bc14344d5fc2a673e0da51030d7_Walk_01.wav",
+                    "",
+                    "50",
+                    "0.025"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Camera",
+                    "\"Walk\""
+                  ]
+                }
+              ]
+            }
           ]
         }
       ]
@@ -10038,6 +10362,18 @@
           "parameters": [
             "Camera",
             "Jump3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "c1e1b0382d2ef9be075adcd356ed89523f3763bd7130f5875ed528ae80e521de_Jump_Start_02.wav",
+            "",
+            "",
             ""
           ]
         }
@@ -10163,6 +10499,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     },
     {
       "name": "Walk3D",

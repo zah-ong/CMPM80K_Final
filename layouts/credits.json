@@ -146,14 +146,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 221,
-      "height": 504,
+      "depth": 251,
+      "height": 573,
       "keepRatio": true,
       "layer": "UI",
       "name": "MainMenu2",
       "persistentUuid": "4be67b03-4455-405a-99a5-120477ac5f08",
-      "width": 885,
-      "x": 180,
+      "width": 1006,
+      "x": 123,
       "y": 10,
       "zOrder": 8,
       "numberProperties": [],
@@ -419,10 +419,10 @@
           "italic": false,
           "smoothed": true,
           "underlined": false,
-          "string": "Credits:\n\nGDevelop\n\nsketchfab:\nSebastianSosnowski\nIsabel.Tan\nElliot\ndimitrisc\n\nOpenGameArt:\ncron\nBart K.",
+          "string": "Credits:\n\nGDevelop\n\nsketchfab:\nSebastianSosnowski\nIsabel.Tan\nElliot\ndimitrisc\n\nfreesound:\nqubodup\n\npixabay:\nAmber2023\nSingularitysMarauder\n\nOpenGameArt:\ncron\nBart K.",
           "font": "mononoki-Regular.ttf",
           "textAlignment": "center",
-          "characterSize": 30,
+          "characterSize": 25,
           "color": {
             "b": 255,
             "g": 255,
@@ -442,11 +442,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Credits:\n\nGDevelop\n\nsketchfab:\nSebastianSosnowski\nIsabel.Tan\nElliot\ndimitrisc\n\nOpenGameArt:\ncron\nBart K.",
+            "text": "Credits:\n\nGDevelop\n\nsketchfab:\nSebastianSosnowski\nIsabel.Tan\nElliot\ndimitrisc\n\nfreesound:\nqubodup\n\npixabay:\nAmber2023\nSingularitysMarauder\n\nOpenGameArt:\ncron\nBart K.",
             "font": "mononoki-Regular.ttf",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 30,
+            "characterSize": 25,
             "color": "255;255;255"
           }
         },
@@ -520,6 +520,18 @@
             "1000",
             "1",
             "\"Top Down\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "189627__qubodup__loud-silence.wav",
+            "yes",
+            "",
             ""
           ]
         }

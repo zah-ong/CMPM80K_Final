@@ -886,6 +886,18 @@
             "\"Top Down\"",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "189627__qubodup__loud-silence.wav",
+            "yes",
+            "",
+            ""
+          ]
         }
       ]
     },

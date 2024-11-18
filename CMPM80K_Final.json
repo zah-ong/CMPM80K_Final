@@ -1214,6 +1214,44 @@
         "metadata": "",
         "name": "speech_bubble2.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/Walk_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9e6c1c3f9594ea0796b8bbd636507bfe04625bc14344d5fc2a673e0da51030d7_Walk_01.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/DirtyGround/Walk/9e6c1c3f9594ea0796b8bbd636507bfe04625bc14344d5fc2a673e0da51030d7_Walk_01.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Jump_Start_02.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "c1e1b0382d2ef9be075adcd356ed89523f3763bd7130f5875ed528ae80e521de_Jump_Start_02.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Nox Footsteps/DirtyGround/Jump/c1e1b0382d2ef9be075adcd356ed89523f3763bd7130f5875ed528ae80e521de_Jump_Start_02.wav",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "189627__qubodup__loud-silence.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "189627__qubodup__loud-silence.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
