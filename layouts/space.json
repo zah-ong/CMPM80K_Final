@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.0735718605204632,
+    "zoomFactor": 0.014192047854656527,
     "windowMask": false
   },
   "objectsGroups": [
@@ -749,8 +749,8 @@
       "name": "Ground",
       "persistentUuid": "a1111091-72ed-4eac-a484-6ad03eff51b9",
       "width": 104792,
-      "x": -46619,
-      "y": -35087,
+      "x": -46353,
+      "y": -33274,
       "z": -100,
       "zOrder": 202,
       "numberProperties": [],
@@ -3649,6 +3649,36 @@
           "name": "RepairedShipPart4",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Shown1",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Shown2",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Shown3",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Shown4",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Shown5",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "Shown6",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [],
@@ -3701,6 +3731,8 @@
           "PreviousState": "Idle"
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": true,
           "angleOffset": 0,
@@ -3710,9 +3742,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": true,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         },
         {
@@ -8358,6 +8388,35 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown1",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown1",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -8380,6 +8439,35 @@
             "ShipHullInt",
             "",
             "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown1",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown1",
+            "=",
             ""
           ]
         }
@@ -8493,6 +8581,35 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown2",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown1",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -8522,10 +8639,13 @@
       "actions": [
         {
           "type": {
-            "value": "Cache"
+            "value": "SetBooleanObjectVariable"
           },
           "parameters": [
-            "P"
+            "Camera",
+            "Shown2",
+            "False",
+            ""
           ]
         }
       ]
@@ -8628,6 +8748,35 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown3",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown3",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -8650,6 +8799,35 @@
             "ShipPart1Int",
             "",
             "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown3",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown3",
+            "False",
             ""
           ]
         }
@@ -8763,6 +8941,35 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown4",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown4",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -8785,6 +8992,35 @@
             "ShipPart2Int",
             "",
             "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown4",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown4",
+            "False",
             ""
           ]
         }
@@ -8898,6 +9134,35 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown5",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown5",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -8920,6 +9185,35 @@
             "ShipPart3Int",
             "",
             "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown5",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown5",
+            "False",
             ""
           ]
         }
@@ -9033,6 +9327,35 @@
       "actions": [
         {
           "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown6",
+            "True",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown6",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
             "value": "Montre"
           },
           "parameters": [
@@ -9055,6 +9378,35 @@
             "ShipPart4Int",
             "",
             "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown6",
+            "False",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Shown6",
+            "False",
             ""
           ]
         }
