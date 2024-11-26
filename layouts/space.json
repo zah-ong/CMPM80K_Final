@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.26273270336697274,
+    "zoomFactor": 0.43207585526462955,
     "windowMask": false
   },
   "objectsGroups": [
@@ -684,8 +684,8 @@
       "name": "RepairShip",
       "persistentUuid": "af8535c1-3c88-4ce5-98c9-dd1228102428",
       "width": 1345,
-      "x": -1720,
-      "y": -1175,
+      "x": -1524,
+      "y": -1194,
       "zOrder": 39,
       "numberProperties": [],
       "stringProperties": [],
@@ -8624,6 +8624,18 @@
             "Camera",
             "Jump3D",
             "PlatformGroup",
+            "Object3D",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Jump3D::Jump3D::SeparateFromPlatforms"
+          },
+          "parameters": [
+            "Camera",
+            "Jump3D",
+            "Spaceship",
             "Object3D",
             ""
           ]
