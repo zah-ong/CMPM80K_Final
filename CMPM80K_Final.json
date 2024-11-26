@@ -1252,6 +1252,16 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "386267__ldezem__pneumatic-drill-atlas-copco-unknown-through-short.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "386267__ldezem__pneumatic-drill-atlas-copco-unknown-through-short.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

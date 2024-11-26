@@ -10176,7 +10176,20 @@
           ]
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "386267__ldezem__pneumatic-drill-atlas-copco-unknown-through-short.wav",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
