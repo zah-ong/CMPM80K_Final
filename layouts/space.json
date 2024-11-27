@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.527203571623498,
+    "zoomFactor": 0.46170663264054773,
     "windowMask": false
   },
   "objectsGroups": [
@@ -251,8 +251,8 @@
       "persistentUuid": "38b3b7b6-e4a4-473f-88ba-e494bfc6ae2a",
       "rotationX": 270,
       "width": 0,
-      "x": -1489,
-      "y": 4403,
+      "x": -2161,
+      "y": 5206,
       "z": 350,
       "zOrder": 14,
       "numberProperties": [],
@@ -616,8 +616,8 @@
       "name": "ShipPart2Int",
       "persistentUuid": "800df87f-9daf-4951-b811-a80bca7ae198",
       "width": 144,
-      "x": -1583,
-      "y": 4345,
+      "x": -2270,
+      "y": 5084,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -749,8 +749,8 @@
       "name": "Ground",
       "persistentUuid": "a1111091-72ed-4eac-a484-6ad03eff51b9",
       "width": 104792,
-      "x": -46301,
-      "y": -33280,
+      "x": -46558,
+      "y": -33430,
       "z": -100,
       "zOrder": 202,
       "numberProperties": [],
@@ -1375,13 +1375,13 @@
       "angle": 45,
       "customSize": true,
       "depth": 450,
-      "height": 600,
+      "height": 1000,
       "layer": "",
       "name": "Platform32",
       "persistentUuid": "a5bc21cb-3a86-439c-be52-5c5ae4cc4aa7",
       "width": 100,
-      "x": -550,
-      "y": 2595,
+      "x": -654,
+      "y": 2558,
       "z": -90,
       "zOrder": 240,
       "numberProperties": [],
@@ -1392,13 +1392,13 @@
       "angle": 45,
       "customSize": true,
       "depth": 450,
-      "height": 600,
+      "height": 1000,
       "layer": "",
       "name": "Platform33",
       "persistentUuid": "d0424f64-cffb-4e1b-ada1-f271a042d361",
       "width": 100,
-      "x": -3,
-      "y": 3118,
+      "x": -70,
+      "y": 3028,
       "z": -90,
       "zOrder": 241,
       "numberProperties": [],
@@ -1413,9 +1413,9 @@
       "layer": "",
       "name": "Platform34",
       "persistentUuid": "1b3d25df-73fd-43c9-8346-f1f224903963",
-      "width": 600,
-      "x": -545,
-      "y": 3130,
+      "width": 1000,
+      "x": -806,
+      "y": 3252,
       "z": -90,
       "zOrder": 242,
       "numberProperties": [],
@@ -1431,8 +1431,8 @@
       "name": "Platform35",
       "persistentUuid": "97f091ae-5e04-4633-b410-bc3225619137",
       "width": 900,
-      "x": -908,
-      "y": 3317,
+      "x": -1071,
+      "y": 3528,
       "z": -90,
       "zOrder": 243,
       "numberProperties": [],
@@ -1448,8 +1448,8 @@
       "name": "Platform36",
       "persistentUuid": "7e8da3e6-dd63-4b52-be7c-f504ae16d9bc",
       "width": 900,
-      "x": -1395,
-      "y": 3735,
+      "x": -1740,
+      "y": 4208,
       "z": -90,
       "zOrder": 244,
       "numberProperties": [],
@@ -1465,8 +1465,8 @@
       "name": "Platform37",
       "persistentUuid": "a1839669-0d5a-416d-a455-3b64ff8ebf95",
       "width": 900,
-      "x": -1917,
-      "y": 4175,
+      "x": -2614,
+      "y": 4929,
       "z": -90,
       "zOrder": 245,
       "numberProperties": [],
@@ -1481,9 +1481,9 @@
       "layer": "",
       "name": "Platform34",
       "persistentUuid": "c3ea1db7-8251-468c-af04-e10de3d403b9",
-      "width": 600,
-      "x": -675,
-      "y": 3790,
+      "width": 1000,
+      "x": -1512,
+      "y": 3955,
       "z": -90,
       "zOrder": 242,
       "numberProperties": [],
@@ -1494,13 +1494,13 @@
       "angle": 45,
       "customSize": true,
       "depth": 450,
-      "height": 600,
+      "height": 1000,
       "layer": "",
       "name": "Platform32",
       "persistentUuid": "0413ba95-f87f-4075-a3ca-0f705f3a55e0",
       "width": 100,
-      "x": -750,
-      "y": 3296,
+      "x": -1478,
+      "y": 4434,
       "z": -90,
       "zOrder": 240,
       "numberProperties": [],
@@ -1511,13 +1511,13 @@
       "angle": 45,
       "customSize": true,
       "depth": 450,
-      "height": 600,
+      "height": 1000,
       "layer": "",
       "name": "Platform33",
       "persistentUuid": "8ebfcc8d-72de-4ba8-a366-59f372fad47d",
       "width": 100,
-      "x": -1015,
-      "y": 3037,
+      "x": -1326,
+      "y": 3225,
       "z": -90,
       "zOrder": 241,
       "numberProperties": [],
@@ -1528,13 +1528,13 @@
       "angle": 45,
       "customSize": true,
       "depth": 450,
-      "height": 600,
+      "height": 1000,
       "layer": "",
       "name": "Platform32",
       "persistentUuid": "b6d24da3-7413-44b5-bdee-0ba02989b07c",
       "width": 100,
-      "x": -1471,
-      "y": 3466,
+      "x": -802,
+      "y": 3767,
       "z": -90,
       "zOrder": 240,
       "numberProperties": [],
@@ -1545,13 +1545,13 @@
       "angle": 45,
       "customSize": true,
       "depth": 450,
-      "height": 600,
+      "height": 1000,
       "layer": "",
       "name": "Platform33",
       "persistentUuid": "b9477990-4da0-4be8-8186-6dad48a6d42a",
       "width": 100,
-      "x": -924,
-      "y": 4019,
+      "x": -1743,
+      "y": 4198,
       "z": -90,
       "zOrder": 241,
       "numberProperties": [],
@@ -1566,9 +1566,9 @@
       "layer": "",
       "name": "Platform34",
       "persistentUuid": "bcb4dc81-ff1e-490b-abf6-0bf128dc8375",
-      "width": 600,
-      "x": -1461,
-      "y": 4005,
+      "width": 1000,
+      "x": -2475,
+      "y": 4366,
       "z": -90,
       "zOrder": 242,
       "numberProperties": [],
@@ -1783,8 +1783,8 @@
       "name": "New3DModel",
       "persistentUuid": "eac5923f-43ee-4c1c-af65-6125bcd2e107",
       "width": 3655,
-      "x": 893,
-      "y": 1525,
+      "x": 843,
+      "y": 880,
       "z": 11000,
       "zOrder": 1002,
       "numberProperties": [],
@@ -7670,7 +7670,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "I - open/close inventory\nW - move forward\nA - move left\nS - move backwards\nD - move right",
+      "string": "I - open/close inventory\nW - move forward\nA - move left\nS - move backwards\nD - move right\nShift - sprint",
       "font": "mononoki-Regular.ttf",
       "textAlignment": "left",
       "characterSize": 15,
@@ -7693,7 +7693,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "I - open/close inventory\nW - move forward\nA - move left\nS - move backwards\nD - move right",
+        "text": "I - open/close inventory\nW - move forward\nA - move left\nS - move backwards\nD - move right\nShift - sprint",
         "font": "mononoki-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
@@ -12060,6 +12060,111 @@
             "c1e1b0382d2ef9be075adcd356ed89523f3763bd7130f5875ed528ae80e521de_Jump_Start_02.wav",
             "",
             "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "LShift"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SetTranslationSpeedMax"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            "=",
+            "800",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SetTranslationAcceleration"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            "=",
+            "4000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SetTranslationDeceleration"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            "=",
+            "3200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "LShift"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SetTranslationSpeedMax"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            "=",
+            "400",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SetTranslationAcceleration"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            "=",
+            "2000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Walk3D::Walk3D::SetTranslationDeceleration"
+          },
+          "parameters": [
+            "Camera",
+            "Walk3D",
+            "=",
+            "1600",
             ""
           ]
         }
