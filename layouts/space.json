@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.378397072624508,
+    "zoomFactor": 0.527203571623498,
     "windowMask": false
   },
   "objectsGroups": [
@@ -388,8 +388,8 @@
       "persistentUuid": "433f353e-2723-455a-8013-578c86196f45",
       "rotationY": 180,
       "width": 97,
-      "x": 650,
-      "y": 155,
+      "x": 744,
+      "y": 77,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -406,8 +406,8 @@
       "persistentUuid": "40234a17-45de-4284-9250-fcdc9d3aa9a2",
       "rotationX": 90,
       "width": 75,
-      "x": 789,
-      "y": 91,
+      "x": 845,
+      "y": 73,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -424,8 +424,8 @@
       "persistentUuid": "dd2b03bf-eaf6-4ca0-8273-d0dfbb99c750",
       "rotationX": 90,
       "width": 53,
-      "x": 797,
-      "y": 196,
+      "x": 775,
+      "y": 193,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -442,8 +442,8 @@
       "persistentUuid": "4149e83f-7b80-41d4-9569-3b497740fef8",
       "rotationX": 270,
       "width": 120,
-      "x": 899,
-      "y": 112,
+      "x": 951,
+      "y": 91,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -460,8 +460,8 @@
       "persistentUuid": "4c622c6a-1998-46bc-91c9-58f81f909551",
       "rotationX": 270,
       "width": 78,
-      "x": 1029,
-      "y": 103,
+      "x": 1056,
+      "y": 98,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -478,8 +478,8 @@
       "persistentUuid": "454b90ce-206f-49c9-b6bc-f519b4714a63",
       "rotationX": 270,
       "width": 33,
-      "x": 997,
-      "y": 204,
+      "x": 985,
+      "y": 207,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -511,7 +511,7 @@
       "name": "Empty",
       "persistentUuid": "6b17cda0-d3b6-424e-afaa-fd87c9caa73c",
       "width": 342,
-      "x": 631,
+      "x": 770,
       "y": 73,
       "zOrder": 10,
       "numberProperties": [],
@@ -667,8 +667,8 @@
       "name": "P",
       "persistentUuid": "22a7985e-9f03-4bfe-a3c2-eab718103af5",
       "width": 0,
-      "x": 508,
-      "y": 11,
+      "x": 14,
+      "y": 237,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -718,7 +718,7 @@
       "persistentUuid": "0ca52715-584f-4949-87a5-48f6d2b46d71",
       "width": 0,
       "x": 308,
-      "y": 88,
+      "y": 124,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1800,8 +1800,8 @@
       "name": "P2",
       "persistentUuid": "77f8c152-f691-43d1-bab6-901ccca55428",
       "width": 0,
-      "x": 508,
-      "y": 11,
+      "x": 14,
+      "y": 237,
       "zOrder": 1003,
       "numberProperties": [],
       "stringProperties": [],
@@ -1816,8 +1816,8 @@
       "name": "P3",
       "persistentUuid": "b25ec426-7202-4766-815b-74aca75f4954",
       "width": 0,
-      "x": 508,
-      "y": 11,
+      "x": 14,
+      "y": 237,
       "zOrder": 1004,
       "numberProperties": [],
       "stringProperties": [],
@@ -1832,8 +1832,8 @@
       "name": "P4",
       "persistentUuid": "e4736b3a-6896-46db-9e90-797e8e5998eb",
       "width": 0,
-      "x": 508,
-      "y": 11,
+      "x": 14,
+      "y": 237,
       "zOrder": 1005,
       "numberProperties": [],
       "stringProperties": [],
@@ -1848,8 +1848,8 @@
       "name": "P5",
       "persistentUuid": "cb1c8874-5269-4981-b3b9-1052618c67f8",
       "width": 0,
-      "x": 508,
-      "y": 11,
+      "x": 14,
+      "y": 237,
       "zOrder": 1006,
       "numberProperties": [],
       "stringProperties": [],
@@ -1864,9 +1864,25 @@
       "name": "P6",
       "persistentUuid": "f669871c-351a-45db-bb3e-614d6f6b92d8",
       "width": 0,
-      "x": 508,
-      "y": 11,
+      "x": 14,
+      "y": 237,
       "zOrder": 1007,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "GameMechanics2",
+      "persistentUuid": "197fea08-aca0-44a0-9572-34aea9a11e15",
+      "width": 0,
+      "x": 522,
+      "y": 138,
+      "zOrder": 1008,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3759,6 +3775,11 @@
           "name": "Shown6",
           "type": "boolean",
           "value": false
+        },
+        {
+          "name": "Inventory",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
@@ -5292,7 +5313,7 @@
       "string": "Game Mechanics:\nP - pickup\nQ - get oxygen\nL - repair ship\nleft click - camera lock\nescape - unlock camera",
       "font": "mononoki-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 15,
       "color": {
         "b": 255,
         "g": 255,
@@ -5316,7 +5337,7 @@
         "font": "mononoki-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 20,
+        "characterSize": 15,
         "color": "255;255;255"
       }
     },
@@ -7637,6 +7658,48 @@
           "width": 192
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GameMechanics2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "I - open/close inventory\nW - move forward\nA - move left\nS - move backwards\nD - move right",
+      "font": "mononoki-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 15,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "I - open/close inventory\nW - move forward\nA - move left\nS - move backwards\nD - move right",
+        "font": "mononoki-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 15,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -7949,6 +8012,9 @@
           },
           {
             "objectName": "GameMechanics"
+          },
+          {
+            "objectName": "GameMechanics2"
           },
           {
             "objectName": "ShipPart4Inv"
@@ -8942,6 +9008,511 @@
       "conditions": [
         {
           "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "i"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "Toggle",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Inventory"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Inventory_Outline"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Empty"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ShipHullInv"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ThrusterInv"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ShipPart1Inv"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ShipPart2Inv"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ShipPart3Inv"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "ShipPart4Inv"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GameMechanics"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GameMechanics2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Inventory_Outline",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Inventory",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "GameMechanics",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "GameMechanics2",
+            "Effect"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipHull",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasThruster",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart1",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart2",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart3",
+                "=",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart4",
+                "=",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Empty",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipHull",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "ShipHullInv",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasThruster",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "ThrusterInv",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart1",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "ShipPart1Inv",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart2",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "ShipPart2Inv",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart3",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "ShipPart3Inv",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "Inventory",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanObjectVariable"
+          },
+          "parameters": [
+            "Camera",
+            "HasShipPart4",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "ShipPart4Inv",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "CollisionNP"
           },
           "parameters": [
@@ -9087,15 +9658,6 @@
         },
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "ShipHullInv",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
@@ -9123,12 +9685,36 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "Inventory",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShipHullInv",
+                ""
+              ]
+            }
+          ]
+        }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -9280,15 +9866,6 @@
         },
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "ThrusterInv",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
@@ -9316,12 +9893,36 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "Inventory",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ThrusterInv",
+                ""
+              ]
+            }
+          ]
+        }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -9473,15 +10074,6 @@
         },
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "ShipPart1Inv",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
@@ -9509,12 +10101,36 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "Inventory",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShipPart1Inv",
+                ""
+              ]
+            }
+          ]
+        }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -9666,15 +10282,6 @@
         },
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "ShipPart2Inv",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
@@ -9702,12 +10309,36 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "Inventory",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShipPart2Inv",
+                ""
+              ]
+            }
+          ]
+        }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -9859,15 +10490,6 @@
         },
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "ShipPart3Inv",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
@@ -9895,12 +10517,36 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "Inventory",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShipPart3Inv",
+                ""
+              ]
+            }
+          ]
+        }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -10052,15 +10698,6 @@
         },
         {
           "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "ShipPart4Inv",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "SetBooleanObjectVariable"
           },
           "parameters": [
@@ -10088,12 +10725,36 @@
             ""
           ]
         }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "Inventory",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "ShipPart4Inv",
+                ""
+              ]
+            }
+          ]
+        }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -10225,6 +10886,17 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipHull",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -10260,6 +10932,17 @@
                 "Camera",
                 "RepairedThruster",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasThruster",
+                "False",
                 ""
               ]
             }
@@ -10299,6 +10982,17 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart1",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -10334,6 +11028,17 @@
                 "Camera",
                 "RepairedShipPart2",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart2",
+                "False",
                 ""
               ]
             }
@@ -10373,6 +11078,17 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart3",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -10408,6 +11124,17 @@
                 "Camera",
                 "RepairedShipPart4",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Camera",
+                "HasShipPart4",
+                "False",
                 ""
               ]
             }
