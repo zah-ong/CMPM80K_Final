@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6222911601358669,
+    "zoomFactor": 0.6019917980016547,
     "windowMask": false
   },
   "objectsGroups": [
@@ -718,7 +718,7 @@
       "persistentUuid": "0ca52715-584f-4949-87a5-48f6d2b46d71",
       "width": 0,
       "x": 308,
-      "y": 124,
+      "y": 105,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1881,7 +1881,7 @@
       "persistentUuid": "197fea08-aca0-44a0-9572-34aea9a11e15",
       "width": 0,
       "x": 518,
-      "y": 126,
+      "y": 107,
       "zOrder": 1008,
       "numberProperties": [],
       "stringProperties": [],
