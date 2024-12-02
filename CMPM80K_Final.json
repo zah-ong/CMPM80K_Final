@@ -1262,6 +1262,17 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Blue Imperial.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Blue Imperial.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Spaceships/1636aa2923493cb86144237c2e7eb078745d8cb5cd04f2029995b842f57c37d9_Blue Imperial.glb",
+          "name": "Blue Imperial.glb"
+        }
       }
     ],
     "resourceFolders": []
@@ -1280,6 +1291,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/guide"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
